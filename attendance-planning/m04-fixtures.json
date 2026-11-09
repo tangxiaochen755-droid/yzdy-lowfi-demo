@@ -1,0 +1,737 @@
+{
+  "grant": {
+    "read": true,
+    "actor": "排班管理员",
+    "departments": [
+      "行政部",
+      "生产一部"
+    ],
+    "teams": [
+      "G01",
+      "G02",
+      "G03"
+    ],
+    "to": "2026-11-30",
+    "actions": [
+      "shift-edit",
+      "group-edit",
+      "schedule-adjust",
+      "schedule-import",
+      "schedule-activate",
+      "schedule-configure"
+    ],
+    "from": "2026-11-01"
+  },
+  "calendar": {
+    "2026-11-01": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-02": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-03": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-04": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-05": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-06": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-07": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-08": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-09": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-10": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-11": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-12": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-13": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-14": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-15": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-16": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-17": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-18": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-19": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-20": {
+      "working": false,
+      "label": "企业休息日"
+    },
+    "2026-11-21": {
+      "working": true,
+      "label": "调休工作日"
+    },
+    "2026-11-22": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-23": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-24": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-25": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-26": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-27": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-28": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-29": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-30": {
+      "working": true,
+      "label": "工作日"
+    }
+  },
+  "scheduleRules": [],
+  "cycle": [
+    {
+      "team": "G02",
+      "sequence": [
+        "S03",
+        "S04"
+      ],
+      "start": "2026-11-02",
+      "version": "PB-261102-V1"
+    }
+  ],
+  "changes": [],
+  "groups": [
+    {
+      "id": "G01",
+      "name": "行政一组",
+      "department": "行政部",
+      "members": [
+        "E0001",
+        "E0002",
+        "E0006"
+      ],
+      "locations": [
+        "L01"
+      ]
+    },
+    {
+      "id": "G02",
+      "name": "内保轮班组",
+      "department": "行政部",
+      "members": [
+        "E0003"
+      ],
+      "locations": [
+        "L02"
+      ]
+    },
+    {
+      "id": "G03",
+      "name": "装配一组",
+      "department": "生产一部",
+      "members": [
+        "E0004",
+        "E0005"
+      ],
+      "locations": [
+        "L03"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "E0001",
+      "name": "员工01",
+      "department": "行政部",
+      "active": true
+    },
+    {
+      "id": "E0002",
+      "name": "员工02",
+      "department": "行政部",
+      "active": true
+    },
+    {
+      "id": "E0003",
+      "name": "员工03",
+      "department": "行政部",
+      "active": true
+    },
+    {
+      "id": "E0004",
+      "name": "员工04",
+      "department": "生产一部",
+      "active": true
+    },
+    {
+      "id": "E0005",
+      "name": "员工05",
+      "department": "生产一部",
+      "active": true
+    },
+    {
+      "id": "E0006",
+      "name": "员工06",
+      "department": "行政部",
+      "active": true
+    }
+  ],
+  "locations": [
+    {
+      "id": "L01",
+      "name": "综合楼考勤点",
+      "department": "行政部"
+    },
+    {
+      "id": "L02",
+      "name": "东门值守考勤点",
+      "department": "行政部",
+      "pointId": "P01"
+    },
+    {
+      "id": "L03",
+      "name": "装配车间考勤点",
+      "department": "生产一部",
+      "pointId": "P03"
+    },
+    {
+      "id": "L04",
+      "name": "行政楼西侧考勤点",
+      "department": "行政部"
+    },
+    {
+      "id": "L05",
+      "name": "装配西门考勤点",
+      "department": "生产一部",
+      "pointId": "P01"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "S01",
+      "name": "行政白班",
+      "type": "白班",
+      "start": "08:00",
+      "end": "17:00",
+      "overnight": false,
+      "teams": [
+        "G01",
+        "G03"
+      ],
+      "enabled": true,
+      "version": "V1",
+      "rule": "ATT-R03",
+      "punchIn": [
+        "07:30",
+        "08:30"
+      ],
+      "punchOut": [
+        "16:30",
+        "17:30"
+      ]
+    },
+    {
+      "id": "S02",
+      "name": "生产夜班",
+      "type": "夜班",
+      "start": "20:00",
+      "end": "05:00",
+      "overnight": true,
+      "teams": [
+        "G03"
+      ],
+      "enabled": true,
+      "version": "V2",
+      "rule": "ATT-R01",
+      "punchIn": [
+        "19:30",
+        "20:30"
+      ],
+      "punchOut": [
+        "04:30",
+        "05:30"
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "内保夜班",
+      "type": "内保轮班",
+      "start": "19:00",
+      "end": "07:00",
+      "overnight": true,
+      "teams": [
+        "G02"
+      ],
+      "enabled": true,
+      "version": "V1",
+      "rule": "ATT-R02",
+      "punchIn": [
+        "18:30",
+        "19:30"
+      ],
+      "punchOut": [
+        "06:30",
+        "07:30"
+      ]
+    },
+    {
+      "id": "S04",
+      "name": "休息",
+      "type": "休息",
+      "start": "",
+      "end": "",
+      "overnight": false,
+      "teams": [
+        "G01",
+        "G02",
+        "G03"
+      ],
+      "enabled": true,
+      "version": "V1",
+      "rule": "—"
+    },
+    {
+      "id": "S05",
+      "name": "装配旧白班",
+      "type": "白班",
+      "start": "07:30",
+      "end": "16:30",
+      "overnight": false,
+      "teams": [
+        "G03"
+      ],
+      "enabled": false,
+      "version": "V1",
+      "rule": "ATT-R01",
+      "punchIn": [
+        "07:00",
+        "08:00"
+      ],
+      "punchOut": [
+        "16:00",
+        "17:00"
+      ]
+    }
+  ],
+  "schedules": [
+    {
+      "team": "G01",
+      "person": "E0001",
+      "date": "2026-11-02",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0001",
+      "date": "2026-11-03",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0001",
+      "date": "2026-11-04",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0001",
+      "date": "2026-11-05",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0001",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0001",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0001",
+      "date": "2026-11-08",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0002",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0006",
+      "date": "2026-11-02",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0006",
+      "date": "2026-11-03",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0006",
+      "date": "2026-11-04",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0006",
+      "date": "2026-11-05",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0006",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0006",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "E0006",
+      "date": "2026-11-08",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "E0003",
+      "date": "2026-11-02",
+      "shift": "S03",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "E0003",
+      "date": "2026-11-03",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "E0003",
+      "date": "2026-11-04",
+      "shift": "S03",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "E0003",
+      "date": "2026-11-05",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "E0003",
+      "date": "2026-11-06",
+      "shift": "S03",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "E0003",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "E0003",
+      "date": "2026-11-08",
+      "shift": "S03",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0004",
+      "date": "2026-11-02",
+      "shift": "S02",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0004",
+      "date": "2026-11-03",
+      "shift": "S02",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0004",
+      "date": "2026-11-04",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0004",
+      "date": "2026-11-05",
+      "shift": "S02",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0004",
+      "date": "2026-11-06",
+      "shift": "S02",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0004",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0004",
+      "date": "2026-11-08",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0005",
+      "date": "2026-11-02",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0005",
+      "date": "2026-11-03",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0005",
+      "date": "2026-11-04",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0005",
+      "date": "2026-11-05",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0005",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0005",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "E0005",
+      "date": "2026-11-08",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    }
+  ],
+  "records": [
+    {
+      "person": "E0001",
+      "team": "G01",
+      "date": "2026-11-06",
+      "events": [
+        {}
+      ]
+    },
+    {
+      "person": "E0006",
+      "team": "G01",
+      "date": "2026-11-05",
+      "events": [
+        {}
+      ]
+    },
+    {
+      "person": "E0004",
+      "team": "G03",
+      "date": "2026-11-06",
+      "events": [
+        {}
+      ]
+    },
+    {
+      "person": "E0006",
+      "team": "G01",
+      "date": "2026-11-04",
+      "events": [
+        {}
+      ]
+    },
+    {
+      "person": "E0003",
+      "team": "G02",
+      "date": "2026-11-06",
+      "events": [
+        {}
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "id": "PB-261102",
+      "status": "已生效",
+      "version": "PB-261102-V1",
+      "date": "2026-11-02",
+      "actor": "排班管理员",
+      "count": 36,
+      "teams": [
+        "G01",
+        "G02",
+        "G03"
+      ]
+    }
+  ],
+  "imports": [
+    {
+      "id": "PI-261109-01",
+      "name": "装配一组排班.xlsx",
+      "rows": [
+        {
+          "team": "G03",
+          "person": "E0004",
+          "date": "2026-11-06",
+          "shift": "S02",
+          "version": "PB-261102-V1"
+        },
+        {
+          "team": "G03",
+          "person": "E0005",
+          "date": "2026-11-10",
+          "shift": "S05",
+          "version": "PB-261102-V1"
+        },
+        {
+          "team": "G03",
+          "person": "E0005",
+          "date": "2026-11-10",
+          "shift": "S01",
+          "version": "PB-261102-V1"
+        }
+      ]
+    },
+    {
+      "id": "PI-261109-02",
+      "name": "内保轮班安排.xlsx",
+      "rows": [
+        {
+          "team": "G02",
+          "person": "E0003",
+          "date": "2026-11-09",
+          "shift": "S04",
+          "version": "PB-261102-V1"
+        },
+        {
+          "team": "G02",
+          "person": "E0003",
+          "date": "2026-11-10",
+          "shift": "S03",
+          "version": "PB-261102-V1"
+        }
+      ]
+    }
+  ],
+  "overtime": [],
+  "reports": [],
+  "quotas": [],
+  "allocations": []
+}

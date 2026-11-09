@@ -1,0 +1,54 @@
+/* PC visual candidate v2 — user supplied Industrial Enterprise UI prompt, 2026-11-06. */
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.sidebar{background:var(--brand);border-right:0;box-shadow:2px 0 10px #13394b0a;isolation:isolate}
+.brand{background:#fff;border-bottom:1px solid #e2e9ed;padding-left:24px;box-shadow:0 4px 16px #00223612}
+.brand img{width:148px}.platform{color:#6b8390;font-size:11px;letter-spacing:1.3px}
+.nav{padding-top:24px}.nav-label{color:#82a8ba;font-size:10px;letter-spacing:1.6px;padding-bottom:12px}
+.nav-item{color:#c3d5df;border-radius:6px;margin:6px 0;height:44px;font-weight:var(--weight-regular);position:relative}
+.nav-item svg{color:#a9c7d5}.nav-item:hover{background:#ffffff10;color:#fff}
+.nav-item:disabled{color:#b5cbd6;background:transparent}.nav-item:disabled svg{color:#91b3c4}
+.nav-item.active{background:var(--nav-active-bg);color:var(--nav-active-text);box-shadow:inset 0 0 0 1px #ffffff0a}
+.nav-item.active:before{content:"";position:absolute;left:-12px;top:12px;bottom:12px;width:3px;background:#c8e1ec;border-radius:0 2px 2px 0}
+.nav-item.active svg{color:#e4f1f7}.nav-item .arrow{opacity:.55}
+.subnav{border-left:1px solid #7294a75c;padding-left:17px;margin-left:33px}
+.subnav div{color:#97b5c5;font-size:var(--font-meta)}.subnav .current{color:#fff;font-weight:var(--weight-medium);position:relative}
+.subnav .current:before{content:"";position:absolute;left:-20px;top:15px;width:5px;height:5px;border-radius:50%;background:#bfdbe9}
+.topbar{box-shadow:0 1px 5px #203f5103;border-bottom:1px solid #e9eef1}.topbar .avatar{background:#ebf1f5;box-shadow:inset 0 0 0 1px #dce6ec}
+.user small{font-size:10px;color:#81949f}.breadcrumb{color:#80939f}.breadcrumb b{color:#425e6f}
+.tabs{background:#fcfdfe;border-bottom:1px solid #e2e9ee}.viewtab{border-color:transparent;background:transparent;border-radius:4px;height:26px;color:#8295a1;gap:13px}
+.viewtab.selected{background:var(--visited-active-bg);border-color:#d0dfe7;color:var(--brand);box-shadow:0 1px 2px #18465d04}
+.content{background:var(--bg)}.page-head{position:relative}.page-head h1{font-size:var(--type-page-title);font-weight:var(--weight-semibold);letter-spacing:.4px;color:#1c3e50}.page-head p{color:#84949e;font-size:var(--font-meta);margin-top:5px}
+.card{border-color:var(--card-border);box-shadow:var(--card-shadow);border-radius:var(--radius)}
+.card-head{border-bottom-color:#eaf0f4}.card-head h2{font-size:var(--type-card-title);color:#2a4758;letter-spacing:.1px}
+button{border-radius:var(--button-radius);transition:background-color .15s,border-color .15s,box-shadow .15s}
+.primary{box-shadow:0 2px 4px #003e5812}.primary:hover{box-shadow:0 3px 8px #003e5820}.primary:active{box-shadow:none}
+button:focus-visible{outline:2px solid var(--button-focus);outline-offset:3px}
+button:disabled{background:var(--button-disabled-bg);border-color:var(--button-disabled-border);color:var(--button-disabled-text);box-shadow:none}
+.nav-item:disabled{border-color:transparent;box-shadow:none}
+.field input,.field select,.tree input{background:#fff;border-color:#dce5eb;border-radius:5px;color:#425e70;box-shadow:0 1px 2px #23465b02}
+.field input:hover,.field select:hover,.tree input:hover{border-color:#a3bdcb}.field input:focus,.field select:focus,.tree input:focus{outline:2px solid #7fa8bd30;outline-offset:0;border-color:#749db2}
+.tree{background:#fbfcfe}.tree-title{color:#345265}.tree-node{color:#6d8493;position:relative;border-radius:5px}
+.tree-node:hover{background:#f0f5f8}.tree-node.active{background:#e6eff4;color:var(--brand);box-shadow:inset 0 0 0 1px #dce8ef}
+.tree-node.active:before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:2px;background:#245d79;border-radius:2px}
+.tree input{background:var(--surface)}.list-toolbar{color:#365367}.filters{background:#fff}.biz-tabs button{font-size:var(--type-tab)}.biz-tabs button:hover{color:var(--brand);background:transparent}
+.biz-tabs .active{border-bottom-width:2px}.biz-tabs em{background:#eaf1f5;color:#3d657b;font-size:10px;padding:1px 6px}
+th{background:var(--table-heading-bg);color:#617d8e;border-top:1px solid #e9f0f4;border-bottom:1px solid #e1eaf0;letter-spacing:.1px}
+td{color:var(--table-row-text);border-bottom-color:#edf2f5}.mono{color:#607d8d;font-size:11.5px;letter-spacing:.1px}
+tbody tr:hover{background:var(--table-row-hover)}.person-cell{color:#314f62;font-weight:var(--weight-medium)}.person-cell .avatar{background:#eef3f6;color:#5c8094;border-radius:7px;box-shadow:inset 0 0 0 1px #e2ebf0}
+.badge{font-size:11px;line-height:var(--line-badge);padding:3px 8px;border-radius:4px;background:var(--status-info-bg);color:#587d91}
+.badge.green{background:var(--status-success-bg);color:#377c62}.badge.amber{background:var(--status-warning-bg);color:#a7762c}.badge.grey{background:var(--status-neutral-bg);color:#8b9ba7}
+.pagination{background:#fff;color:#8296a3;border-top:1px solid #f2f5f7}.pagination .current{border-radius:4px;box-shadow:0 1px 3px #003e5815}
+.detail-summary{background:#fff;position:relative}.detail-summary:after{content:"";position:absolute;top:0;right:0;bottom:0;width:180px;background:url('assets/industrial-lines.svg') right 34%/220px auto;opacity:.22;pointer-events:none}.detail-summary>.badge{position:relative;z-index:1}
+.staff-avatar{background:#e5eff5;color:#174e68;border:1px solid #d7e6ee;border-radius:11px;font-weight:var(--weight-medium);box-shadow:0 3px 8px #194e6908}
+.summary-title h1{color:#22495f}.summary-title p{font-size:var(--font-meta);color:#8b9ca8}
+.profile-side{background:#f8fbfd;border-left-color:#e8eff4}.profile-side h3{font-size:var(--font-table);color:#3a5b6f}
+.section-title{font-size:14px;color:#34576c;font-weight:var(--weight-semibold);border-left-width:2px;padding-left:10px}
+.kv div>span{color:#8799a5;font-size:var(--font-meta)}.kv div>b{color:#35556a;font-size:14px}.profile-side .callout{background:#eef4f8;color:#7a93a3;border:1px solid #e7eff4;border-radius:6px}
+.actionbar{border-top-color:#e4ecf1;box-shadow:0 -3px 12px #1d485c03}.footnote{font-size:10px;color:#a6b3bc}
+dialog{border-radius:var(--dialog-radius);border-color:#dce7ee;box-shadow:var(--dialog-shadow)}.modal-head h2{color:#274e63}
+@media(prefers-reduced-motion:reduce){button{transition:none}}
+
+/* v04 — user requested full-height solid brand-blue sidebar and reversed logo. */
+.sidebar{background:var(--brand)}
+.brand{background:transparent;border-bottom:0;box-shadow:none}
+.platform{color:#b4ceda}
