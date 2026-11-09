@@ -1,0 +1,28 @@
+/* Approved muted 3x3 concept, 2026-11-06. Work route only. */
+.viewport[data-page="work"]{background:#edf3f5}
+.viewport[data-page="work"] .scroll-area{background:#edf3f5}
+.work-content{padding:0 15px 22px}
+.work-content .dual{gap:10px;margin-bottom:12px}
+.work-content .entry-card{min-height:76px;gap:10px;padding:13px 12px;border-radius:17px;background:#fff;box-shadow:var(--shadow)}
+.work-content .entry-icon{width:37px;height:40px;border-radius:11px;background:#f0f6f8;color:var(--brand)}
+.work-content .entry-icon svg{width:24px;height:24px;stroke-width:1.7}
+.work-entry-copy{min-width:0}
+.work-content .entry-card h2{font-size:15px;white-space:nowrap;margin-bottom:4px}
+.work-content .entry-card p{font-size:12px;white-space:nowrap}
+.work-content .entry-card>.chevron{width:13px;height:13px;margin-left:auto;color:#82969f}
+.work-content .card{padding:14px 16px;border-radius:17px}
+.work-content .service-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 0;margin:7px -5px 0}
+.work-content .service{min-height:73px;gap:6px;padding:3px 0}
+.work-content .service-symbol{display:grid;place-items:center;width:40px;height:40px;background:#f0f6f8;border-radius:12px;color:var(--brand)}
+.work-content .service-symbol svg{width:24px;height:24px;stroke-width:1.7}
+.work-content .service span{font-size:13px;font-weight:500;color:var(--ink)}
+.work-content .work-accent{stroke:#078370}
+.work-content .service:active{background:#e8f0f3}
+.work-content .recent .list-row{min-height:70px;gap:10px;padding:10px 0}
+.work-content .recent .leading-icon{width:32px;height:35px;border-radius:10px;background:#f0f6f8;color:var(--brand)}
+.work-content .recent .leading-icon svg{width:23px;height:23px;stroke-width:1.7}
+.work-content .recent .row-title{font-size:14px;font-weight:600}
+.work-content .recent .row-sub{display:block;font-size:12px;margin-top:6px;color:var(--secondary)}
+.work-content .recent .tag{font-size:12px;padding:3px 7px;flex-shrink:0}
+.work-content .recent .list-row>.chevron{width:14px;height:14px;color:#82969f}
+@media(max-width:350px){.work-content .entry-card{gap:7px;padding:12px 9px}.work-content .entry-icon{width:29px;height:33px}.work-content .entry-card h2{font-size:14px}.work-content .entry-card p{font-size:12px}.work-content .entry-card>.chevron{width:11px}.work-content .recent .list-row{gap:7px}.work-content .recent .row-sub{font-size:12px}}

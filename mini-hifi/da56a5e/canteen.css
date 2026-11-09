@@ -1,0 +1,44 @@
+/* HM-IN-03 only: compact account card and canteen -> date menu selection. */
+.canteen-compact-top{height:104px}
+.canteen-balance{padding:11px 16px 12px;margin-bottom:10px;color:#fff;background:linear-gradient(180deg,transparent 25%,#003e58c9 80%,#003e58b3 100%),var(--brand) url('assets/canteen-account-wave-v1.webp') center/100% 100% no-repeat;box-shadow:0 5px 18px #003e5826;border:1px solid #00728a;border-radius:17px}
+.canteen-balance:after{display:none}
+.canteen-balance .balance-top{display:flex;align-items:center;justify-content:flex-start;gap:9px}
+.balance-wallet{width:34px;height:34px;display:grid;place-items:center;flex:none;border-radius:9px;background:#ffffff23}
+.balance-wallet svg{width:21px;height:21px}
+.balance-owner{min-width:0;flex:1;padding-left:9px;border-left:1px solid #ffffff55}
+.balance-owner h2{font-size:15px;margin:0 0 2px}
+.balance-owner p{font-size:12px;margin:0;color:#d6edf3;overflow-wrap:anywhere}
+.canteen-balance .account-link{min-height:44px;min-width:44px;flex:none;padding:0;color:#fff;font-size:12px}
+.account-link>span{display:inline-flex;align-items:center;gap:2px;padding:4px 8px;border:1px solid #ffffff76;border-radius:20px;background:#003e5866}
+.account-link svg{width:12px;height:12px}
+.canteen-balance .balance-amount{margin:5px 0 7px;gap:6px;align-items:baseline}
+.canteen-balance .balance-amount strong{font-size:36px;font-weight:700;line-height:1.07;letter-spacing:-.7px;font-variant-numeric:tabular-nums}
+.canteen-balance .balance-amount>span{font-size:13px;opacity:1;color:#fff}
+.canteen-balance .balance-bottom{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #ffffff55;padding-top:8px;margin:0;font-size:12px;color:#edf7fa;line-height:1.5}
+.balance-bottom>div{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 6px}
+.balance-bottom>div+div{border-left:1px solid #ffffff55;padding-left:9px}
+.balance-bottom dd{margin:0;color:#fff;font-weight:650;font-variant-numeric:tabular-nums}
+.canteen-services{gap:10px;margin-bottom:10px}
+.canteen-services .entry-card{min-height:72px;padding:12px 14px;gap:11px}
+.canteen-services .entry-icon{width:35px;height:39px;border-radius:10px}
+.canteen-services .entry-icon svg{width:21px;height:21px}
+.canteen-services .entry-card h2{font-size:15px;margin-bottom:4px}
+.canteen-services .entry-card p{font-size:12px}
+.canteen-menu{padding:13px 17px 10px}
+.canteen-menu .card-head{margin:0 0 1px;min-height:44px}
+.canteen-selector{min-height:44px;max-width:155px;display:flex;align-items:center;justify-content:flex-end;gap:5px;padding:5px 8px;background:#f0f6f8;border-radius:9px;color:var(--brand);font-size:12px;font-weight:500}
+.canteen-selector>svg{width:13px;height:13px;transform:rotate(90deg)}
+.canteen-menu .week-strip{margin:5px -5px 6px;gap:4px}
+.canteen-menu .day-button{min-height:53px;padding:8px 1px;gap:5px}
+.canteen-menu .day-button b{font-size:14px}
+.canteen-menu .menu-date{font-size:12px;padding:5px 0 8px}
+.canteen-menu .tag{font-size:12px;padding:2px 7px}
+.canteen-menu .menu-dish{min-height:53px;padding:9px 0;gap:10px}
+.canteen-menu .dish-symbol{width:33px;height:33px;border-radius:9px}
+.canteen-menu .dish-symbol svg{width:20px;height:20px}
+.canteen-menu .menu-dish h3{font-size:13px;margin-bottom:3px}
+.canteen-menu .menu-dish p{font-size:12px}
+.canteen-menu .menu-dish .price{font-size:14px}
+.canteen-menu .menu-foot{padding-top:9px;font-size:12px}
+.canteen-content>.quiet-note{padding:1px 0 6px;font-size:12px}
+@media(max-width:350px){.canteen-services .entry-card{padding-left:11px;padding-right:9px;gap:8px}.canteen-services .entry-icon{width:28px}.canteen-services .entry-card h2{font-size:14px}.canteen-services .entry-card p{font-size:12px}.canteen-menu{padding-left:14px;padding-right:14px}.canteen-selector{max-width:127px;font-size:12px}.canteen-menu .card-head h2{font-size:16px}}

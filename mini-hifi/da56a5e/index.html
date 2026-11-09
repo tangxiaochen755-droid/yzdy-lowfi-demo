@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#003e58">
+  <title>YADON · 一期小程序原型</title>
+  <link rel="icon" href="assets/yadon-logo-transparent.png">
+  <link rel="stylesheet" href="styles.css?v=freeze-audit-1">
+  <link rel="stylesheet" href="me.css?v=freeze-audit-1">
+  <link rel="stylesheet" href="canteen.css?v=freeze-audit-1">
+  <link rel="stylesheet" href="work.css?v=freeze-audit-1">
+  <link rel="stylesheet" href="secondary.css?v=freeze-audit-1">
+</head>
+<body>
+  <main class="stage">
+    <div class="device" id="device">
+      <div class="viewport" id="viewport">
+        <div class="scroll-area" id="scroll-area"><div id="page"></div></div>
+        <nav class="tabbar" id="tabbar" aria-label="小程序主导航"></nav>
+        <div class="sheet-layer" id="sheet-layer" hidden>
+          <button class="scrim" aria-label="关闭弹层" data-close-sheet></button>
+          <section class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" tabindex="-1">
+            <div class="sheet-handle"></div>
+            <header class="sheet-head"><h2 id="sheet-title"></h2><button class="icon-button" aria-label="关闭" data-close-sheet>×</button></header>
+            <div id="sheet-body" class="sheet-body"></div>
+          </section>
+        </div>
+        <div class="toast" id="toast" role="status" hidden></div>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="app.js?v=freeze-audit-1"></script>
+</body>
+</html>

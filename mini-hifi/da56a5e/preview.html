@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>扬锻 · 小程序总览</title>
+  <link rel="icon" href="assets/yadon-logo-transparent.png">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; height: 100dvh; display: flex; flex-direction: column; color: #003e58; background: #edf3f5; font: 14px system-ui, sans-serif; }
+    header { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; padding: 8px 16px; background: white; border-bottom: 1px solid #d5e2e7; }
+    h1 { margin: 0; font-size: 17px; }
+    label { display: flex; align-items: center; gap: 8px; }
+    select, a { min-height: 44px; color: inherit; font: inherit; }
+    select { padding: 0 8px; border: 1px solid #bdd0d8; border-radius: 8px; background: #f7fafb; }
+    a { display: inline-flex; align-items: center; }
+    iframe { width: 100%; flex: 1; min-height: 0; border: 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>小程序总览</h1>
+    <label>预览身份
+      <select id="role">
+        <option value="external">外部访客／货运司机</option>
+        <option value="employee">员工</option>
+        <option value="approver">审批人</option>
+        <option value="guard">当班安保</option>
+        <option value="hybrid">审批人兼安保</option>
+        <option value="offDuty">非当班安保</option>
+        <option value="exempt">免打卡员工</option>
+        <option value="noSchedule">无排班员工</option>
+      </select>
+    </label>
+    <a id="standalone" target="_blank" rel="noopener">单独打开当前身份首页</a>
+  </header>
+  <iframe id="preview" title="小程序预览"></iframe>
+  <script>
+    const selector = document.querySelector('#role');
+    const preview = document.querySelector('#preview');
+    const standalone = document.querySelector('#standalone');
+    const url = new URL(location.href);
+    const selected = url.searchParams.get('role');
+    if ([...selector.options].some(option => option.value === selected)) selector.value = selected;
+
+    function showRole() {
+      const role = selector.value;
+      const external = role === 'external';
+      const path = external ? '/mini/external/booking' : '/mini/home';
+      const target = 'index.html?v=freeze-audit-1&actor=' + (external ? 'employee' : role) + '#' + path;
+      preview.src = target;
+      standalone.href = target;
+      url.searchParams.set('role', role);
+      history.replaceState(null, '', url);
+    }
+
+    selector.addEventListener('change', showRole);
+    showRole();
+  </script>
+</body>
+</html>
