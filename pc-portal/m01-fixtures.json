@@ -1,0 +1,518 @@
+{
+  "visits": [
+    {
+      "id": "VIS-261108-01",
+      "kind": "普通访客",
+      "applicant": "方晨宜",
+      "dept": "行政部",
+      "hosts": [
+        {
+          "name": "丁明宜",
+          "result": "同意",
+          "at": "2026-11-07 16:08"
+        },
+        {
+          "name": "唐知宜",
+          "result": "同意",
+          "at": "2026-11-07 16:08"
+        }
+      ],
+      "people": [
+        {
+          "name": "许宁宜",
+          "role": "来访人",
+          "phoneMasked": "130****0000",
+          "identityMasked": "******************",
+          "photoStatus": "已提交"
+        },
+        {
+          "name": "彭予宜",
+          "role": "同行人",
+          "identityMasked": "******************",
+          "photoStatus": "已提交"
+        }
+      ],
+      "approval": "已通过",
+      "qualification": "有效",
+      "state": "部分离厂",
+      "purpose": "",
+      "plate": "",
+      "cargo": "",
+      "visitPurpose": "商务交流",
+      "hasVehicle": false,
+      "reason": "洽谈园区办公设施年度检修与进场安排",
+      "date": "2026-11-08",
+      "start": "08:30",
+      "end": "17:00",
+      "submitted": "2026-11-07 15:20",
+      "notices": [
+        "已确认",
+        "已确认"
+      ],
+      "events": [
+        {
+          "id": "EV-100",
+          "person": "许宁宜",
+          "source": "FACE_VERIFIED_ONLY",
+          "direction": "—",
+          "time": "09:01",
+          "upload": "09:01",
+          "point": "P01",
+          "sync": "已上报"
+        },
+        {
+          "id": "EV-101",
+          "person": "许宁宜",
+          "source": "DEVICE_PASS_EVENT",
+          "direction": "入厂",
+          "time": "09:02",
+          "upload": "09:02",
+          "point": "P01",
+          "sync": "已上报"
+        },
+        {
+          "id": "EV-102",
+          "person": "彭予宜",
+          "source": "DEVICE_PASS_EVENT",
+          "direction": "入厂",
+          "time": "09:04",
+          "upload": "09:04",
+          "point": "P01",
+          "sync": "已上报"
+        },
+        {
+          "id": "EV-103",
+          "person": "许宁宜",
+          "source": "DEVICE_PASS_EVENT",
+          "direction": "离厂",
+          "time": "10:15",
+          "upload": "10:42",
+          "point": "P01",
+          "sync": "离线补传"
+        },
+        {
+          "id": "EV-103",
+          "person": "许宁宜",
+          "source": "DEVICE_PASS_EVENT",
+          "direction": "离厂",
+          "time": "10:15",
+          "upload": "10:43",
+          "point": "P01",
+          "sync": "离线补传"
+        }
+      ],
+      "allowedAccessPointIds": [
+        "P01"
+      ]
+    },
+    {
+      "id": "VIS-261108-02",
+      "kind": "货运",
+      "applicant": "秦青宜",
+      "dept": "销售部",
+      "hosts": [{"name":"何可宜"}],
+      "people": [
+        {
+          "name": "陆清宜",
+          "role": "驾驶人",
+          "phoneMasked": "130****0000",
+          "identityMasked": "******************",
+          "photoStatus": "已提交"
+        },
+        {
+          "name": "邵思宜",
+          "role": "随行人",
+          "identityMasked": "******************",
+          "photoStatus": "已提交"
+        }
+      ],
+      "approval": "已通过",
+      "qualification": "有效",
+      "state": "待入厂",
+      "purpose": "送货",
+      "materialPass": true,
+      "plate": "苏K·6***2",
+      "cargo": "液压组件及安装附件，按送货单核对",
+      "reason": "",
+      "date": "2026-11-08",
+      "start": "08:30",
+      "end": "17:00",
+      "submitted": "2026-11-07 15:20",
+      "notices": [
+        "已确认",
+        "已确认"
+      ],
+      "allowedAccessPointIds": [
+        "P01"
+      ]
+    },
+    {
+      "id": "VIS-261108-03",
+      "kind": "普通访客",
+      "applicant": "梁亦宜",
+      "dept": "行政部",
+      "hosts": [
+        {
+          "name": "丁明宜",
+          "result": "待处理",
+          "at": ""
+        },
+        {
+          "name": "唐知宜",
+          "result": "同意",
+          "at": "2026-11-07 16:08"
+        }
+      ],
+      "people": [
+        {
+          "name": "梁亦宜",
+          "role": "来访人",
+          "photoStatus": "已提交"
+        }
+      ],
+      "approval": "待审批",
+      "qualification": "未生效",
+      "state": "未入厂",
+      "purpose": "",
+      "plate": "",
+      "cargo": "",
+      "visitPurpose": "其他",
+      "reason": "合同资料核对",
+      "date": "2026-11-08",
+      "start": "08:30",
+      "end": "17:00",
+      "submitted": "2026-11-07 15:20",
+      "notices": [
+        "已确认",
+        "已确认"
+      ],
+      "allowedAccessPointIds": []
+    },
+    {
+      "id": "VIS-261108-04",
+      "kind": "普通访客",
+      "applicant": "周嘉宜",
+      "dept": "技术研发部",
+      "hosts": [
+        {
+          "name": "严桐宜",
+          "result": "同意",
+          "at": "2026-11-07 16:08"
+        }
+      ],
+      "people": [
+        {
+          "name": "周嘉宜",
+          "role": "来访人",
+          "photoStatus": "已提交"
+        }
+      ],
+      "approval": "已通过",
+      "qualification": "有效",
+      "state": "待入厂",
+      "purpose": "",
+      "plate": "",
+      "cargo": "",
+      "reason": "内部联调",
+      "date": "2026-11-08",
+      "start": "08:30",
+      "end": "17:00",
+      "submitted": "2026-11-07 15:20",
+      "notices": [
+        "已确认",
+        "已确认"
+      ],
+      "allowedAccessPointIds": [
+        "P02"
+      ]
+    },
+    {
+      "id": "VIS-261108-05",
+      "kind": "普通访客",
+      "applicant": "叶悦宜",
+      "dept": "销售部",
+      "hosts": [
+        {
+          "name": "丁明宜",
+          "result": "驳回",
+          "at": "2026-11-07 16:08"
+        },
+        {
+          "name": "叶文宜",
+          "result": "已终止",
+          "at": ""
+        }
+      ],
+      "people": [
+        {
+          "name": "叶悦宜",
+          "role": "来访人",
+          "photoStatus": "已提交"
+        }
+      ],
+      "approval": "已驳回",
+      "qualification": "未生效",
+      "state": "未入厂",
+      "purpose": "",
+      "plate": "",
+      "cargo": "",
+      "visitPurpose": "其他",
+      "reason": "参观及合作交流",
+      "date": "2026-11-08",
+      "start": "08:30",
+      "end": "17:00",
+      "submitted": "2026-11-07 15:20",
+      "notices": [
+        "已确认",
+        "已确认"
+      ],
+      "allowedAccessPointIds": []
+    },
+    {
+      "id": "VIS-261108-06",
+      "kind": "货运",
+      "applicant": "冯宇宜",
+      "dept": "销售部",
+      "hosts": [],
+      "people": [
+        {
+          "name": "陆远宜",
+          "role": "驾驶人"
+        }
+      ],
+      "approval": "结果待确认",
+      "qualification": "未生效",
+      "state": "未入厂",
+      "purpose": "发货",
+      "plate": "苏K·8***1",
+      "cargo": "机床配套工具",
+      "reason": "",
+      "date": "2026-11-08",
+      "start": "08:30",
+      "end": "17:00",
+      "submitted": "2026-11-07 15:20",
+      "notices": [
+        "已确认",
+        "已确认"
+      ],
+      "allowedAccessPointIds": []
+    },
+    {
+      "id": "VIS-261108-07",
+      "kind": "货运",
+      "applicant": "蒋云宜",
+      "dept": "销售部",
+      "hosts": [],
+      "people": [
+        {
+          "name": "赵思宜",
+          "role": "驾驶人"
+        }
+      ],
+      "approval": "已通过",
+      "qualification": "已结束",
+      "state": "整单结束",
+      "purpose": "发送货",
+      "plate": "苏K·5***6",
+      "cargo": "钣金构件与包装支架",
+      "reason": "",
+      "date": "2026-11-08",
+      "start": "08:30",
+      "end": "17:00",
+      "submitted": "2026-11-07 15:20",
+      "notices": [
+        "已确认",
+        "已确认"
+      ],
+      "events": [
+        {
+          "id": "EV-104",
+          "person": "赵思宜",
+          "source": "DEVICE_PASS_EVENT",
+          "direction": "入厂",
+          "time": "08:40",
+          "upload": "08:40",
+          "point": "P01",
+          "sync": "已上报"
+        },
+        {
+          "id": "EV-105",
+          "person": "赵思宜",
+          "source": "DEVICE_PASS_EVENT",
+          "direction": "离厂",
+          "time": "09:22",
+          "upload": "09:22",
+          "point": "P01",
+          "sync": "已上报"
+        }
+      ],
+      "allowedAccessPointIds": [
+        "P01"
+      ]
+    },
+    {
+      "id": "VIS-261108-08",
+      "kind": "普通访客",
+      "applicant": "陈宁宜",
+      "dept": "行政部",
+      "hosts": [
+        {
+          "name": "丁明宜",
+          "result": "同意",
+          "at": "2026-11-07 16:08"
+        }
+      ],
+      "people": [
+        {
+          "name": "陈宁宜",
+          "role": "来访人",
+          "photoStatus": "已提交"
+        }
+      ],
+      "approval": "已通过",
+      "qualification": "有效",
+      "state": "待入厂",
+      "purpose": "",
+      "plate": "",
+      "cargo": "",
+      "visitPurpose": "其他",
+      "reason": "设备维护方案、现场安全交底与年度服务计划的联合复核及执行安排",
+      "date": "2026-11-08",
+      "start": "08:30",
+      "end": "17:00",
+      "submitted": "2026-11-07 15:20",
+      "notices": [
+        "已确认",
+        "已确认"
+      ],
+      "events": [
+        {
+          "id": "EV-106",
+          "person": "陈宁宜",
+          "source": "FACE_VERIFIED_ONLY",
+          "direction": "—",
+          "time": "09:22",
+          "upload": "09:22",
+          "point": "P01",
+          "sync": "已上报"
+        }
+      ],
+      "allowedAccessPointIds": [
+        "P01"
+      ]
+    }
+  ],
+  "points": {
+    "P01": "东门访客通道",
+    "P02": "西门货运通道"
+  },
+  "shift": {
+    "actor": "何辰宜",
+    "start": "08:00",
+    "end": "18:00",
+    "point": "P01",
+    "onDuty": true,
+    "date": "2026-11-08",
+    "asOf": "10:50"
+  },
+  "materials": [
+    {
+      "id": "MAT-001",
+      "visit": "VIS-261108-01",
+      "point": "P01",
+      "item": "访客工牌",
+      "holder": "彭予宜",
+      "count": 1,
+      "out": "09:05",
+      "back": "",
+      "status": "待归还"
+    },
+    {
+      "id": "MAT-002",
+      "visit": "VIS-261108-07",
+      "point": "P01",
+      "item": "通行证件",
+      "holder": "赵思宜",
+      "count": 1,
+      "out": "08:42",
+      "back": "09:24",
+      "status": "已归还"
+    },
+    {
+      "id": "MAT-003",
+      "visit": "VIS-261108-04",
+      "point": "P02",
+      "item": "临时证件",
+      "holder": "周嘉宜",
+      "count": 1,
+      "out": "09:30",
+      "back": "",
+      "status": "待归还"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "EV-107",
+      "person": "—",
+      "source": "UNKNOWN",
+      "direction": "—",
+      "time": "—",
+      "upload": "10:50",
+      "point": "P01",
+      "sync": "结果待确认"
+    },
+    {
+      "id": "EV-108",
+      "person": "—",
+      "source": "陌生人告警",
+      "direction": "—",
+      "time": "10:32",
+      "upload": "10:32",
+      "point": "P01",
+      "sync": "已上报"
+    },
+    {
+      "id": "EV-109",
+      "person": "周嘉宜",
+      "source": "DEVICE_PASS_EVENT",
+      "direction": "入厂",
+      "time": "09:31",
+      "upload": "09:31",
+      "point": "P02",
+      "sync": "已上报"
+    }
+  ],
+  "listMaintenance": {"departments": ["行政部", "销售部"]},
+  "lists": [
+    {
+      "id": "L-001",
+      "name": "江星宜",
+      "dept": "行政部",
+      "kind": "黑名单",
+      "scope": "访客与货运",
+      "period": "2026-11-01 至 2026-11-30",
+      "status": "有效",
+      "audit": "2026-11-01 09:30 · 范围复核"
+    },
+    {
+      "id": "L-002",
+      "name": "秦宇宜",
+      "dept": "行政部",
+      "kind": "预约自动审批",
+      "scope": "普通访客",
+      "period": "2026-11-01 至 2026-11-30",
+      "status": "有效",
+      "audit": "2026-11-02 13:45 · 资格复核"
+    },
+    {
+      "id": "L-003",
+      "name": "丁言宜",
+      "dept": "销售部",
+      "kind": "免普通预约现场刷脸",
+      "scope": "普通访客",
+      "period": "2026-11-01 至 2026-11-30",
+      "status": "有效",
+      "audit": "2026-11-02 14:15 · 资格复核"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.m02-batch { flex-wrap:wrap; gap:8px 16px; }
+.m02-batch .actions { flex-wrap:wrap; }
+.m02-results { margin-bottom:16px; }
+.m02-results [role=status] { color:var(--text-secondary); font-size:var(--type-meta); }
+.m02-list input[data-approval-select] { width:16px; height:16px; accent-color:var(--color-brand); }
+.m02-list td:last-child { white-space:nowrap; }

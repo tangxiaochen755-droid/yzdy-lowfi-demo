@@ -1,0 +1,49 @@
+{
+  "scope": {
+    "pages": ["access-places", "access-devices", "access-events"],
+    "manage": true,
+    "placeIds": ["V01", "V02", "V03"],
+    "pointIds": ["P01", "P02", "P03", "P04"],
+    "deviceIds": ["D101", "D102", "D103", "D201", "D202", "D301", "D401", "D501"],
+    "departmentIds": ["D01", "D02", "D03", "D04", "D05", "D06", "D07"]
+  },
+  "places": [
+    {"id":"V01","name":"园区公共区","address":"东门与综合楼","enabled":true},
+    {"id":"V02","name":"生产作业区","address":"生产一部及装配车间","enabled":true},
+    {"id":"V03","name":"物流作业区","address":"西门与收发货平台","enabled":true},
+    {"id":"V99","name":"范围外场所","address":"独立库房","enabled":true}
+  ],
+  "points": [
+    {"id":"P01","name":"东门访客通道","placeIds":["V01","V02"],"enabled":true,"entry":["D101","D102"],"exit":["D103"]},
+    {"id":"P02","name":"西门货运通道","placeIds":["V03"],"enabled":true,"entry":["D201"],"exit":["D202"]},
+    {"id":"P03","name":"装配车间入口","placeIds":["V02"],"enabled":true,"entry":["D301"],"exit":[]},
+    {"id":"P04","name":"综合楼侧门","placeIds":["V01"],"enabled":false,"entry":["D401"],"exit":[]},
+    {"id":"P99","name":"范围外通道","placeIds":["V99"],"enabled":true,"entry":["D999"],"exit":[]}
+  ],
+  "devices": [
+    {"id":"D101","name":"东门进向 01","enabled":true,"online":true,"report":"已上报"},
+    {"id":"D102","name":"东门进向 02","enabled":true,"online":true,"report":"已上报"},
+    {"id":"D103","name":"东门出向 01","enabled":true,"online":true,"report":"已上报"},
+    {"id":"D201","name":"西门进向 01","enabled":true,"online":true,"report":"已上报"},
+    {"id":"D202","name":"西门出向 01","enabled":true,"online":false,"report":"待补传"},
+    {"id":"D301","name":"装配车间进向 01","enabled":true,"online":true,"report":"未上报"},
+    {"id":"D401","name":"综合楼侧门进向 01","enabled":false,"online":false,"report":"未上报"},
+    {"id":"D501","name":"待配置识别终端","enabled":true,"online":true,"report":"未上报"},
+    {"id":"D999","name":"范围外设备","enabled":true,"online":true,"report":"已上报"}
+  ],
+  "grants": [
+    {"id":"D01","name":"行政部","pointIds":["P01","P04"]},
+    {"id":"D03","name":"生产一部","pointIds":["P01","P03"]},
+    {"id":"D02","name":"销售部","pointIds":["P01","P02"]},
+    {"id":"ORG99","name":"范围外部门","pointIds":["P99"]}
+  ],
+  "events": [
+    {"id":"EV-103","person":"许宁宜","pointId":"P01","deviceId":"D103","direction":"离厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 10:15","reportedAt":"2026-11-08 10:42","sync":"离线补传"},
+    {"id":"EV-103","person":"许宁宜","pointId":"P01","deviceId":"D103","direction":"离厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 10:15","reportedAt":"2026-11-08 10:43","sync":"离线补传"},
+    {"id":"EV-102","person":"彭予宜","pointId":"P01","deviceId":"D102","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 09:04","reportedAt":"2026-11-08 09:04","sync":"已上报"},
+    {"id":"EV-101","person":"许宁宜","pointId":"P01","deviceId":"D101","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 09:02","reportedAt":"2026-11-08 09:02","sync":"已上报"},
+    {"id":"EV-100","person":"许宁宜","pointId":"P01","deviceId":"D101","direction":"","source":"FACE_VERIFIED_ONLY","occurredAt":"2026-11-08 09:01","reportedAt":"2026-11-08 09:01","sync":"已上报"},
+    {"id":"EV-210","person":"程辰宜","pointId":"P02","deviceId":"D201","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 08:30","reportedAt":"2026-11-08 08:30","sync":"已上报"},
+    {"id":"EV-999","person":"范围外人员","pointId":"P99","deviceId":"D999","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 08:00","reportedAt":"2026-11-08 08:00","sync":"已上报"}
+  ]
+}

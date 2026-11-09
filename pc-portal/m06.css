@@ -1,0 +1,14 @@
+.acs-card td { overflow-wrap:anywhere; }
+.acs-card .filters { flex-wrap:wrap; }
+.acs-card td:last-child { white-space:nowrap; }
+.acs-card td:last-child button + button { margin-left:6px; }
+.acs-card [aria-pressed="true"] { font-weight:var(--weight-semibold); text-decoration:underline; }
+.acs-options { min-width:0; margin:0; border:1px solid var(--line); border-radius:var(--radius); padding:10px 12px 12px; }
+.acs-options legend { padding:0 6px; font-weight:var(--weight-semibold); }
+.acs-options > div { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.acs-options label { display:flex; gap:6px; align-items:center; }
+.acs-options input[type="checkbox"] { width:auto; min-height:0; }
+.department-access { border-top:1px solid var(--line); }
+.department-access-body { padding:0 16px 12px; }
+.department-access-body p { margin:8px 0 0; }
+.acs-options label { align-items:flex-start; }

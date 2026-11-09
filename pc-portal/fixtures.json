@@ -1,0 +1,722 @@
+{
+  "access": {
+    "org": true,
+    "staff": true,
+    "employeeProfileEdit": true,
+    "approvals": true,
+    "permissions": true
+  },
+  "employees": [
+    {
+      "id": "YD9001",
+      "name": "赵远宜",
+      "dept": "行政部",
+      "job": "人事专员",
+      "date": "2025-03-01",
+      "status": "在职",
+      "profile": {"personnelNature": "正式员工"},
+      "personnelTags": ["老年人"],
+      "cadre": {
+        "value": "普通员工",
+        "at": "2025-03-01 09:20",
+        "actor": "丁明宜",
+        "basis": "人事档案确认"
+      },
+      "face": {
+        "status": "已录入",
+        "at": "2026-11-05 14:20",
+        "photo": "assets/staff/YD9001-portrait-v1.png"
+      },
+      "assignments": [
+        {
+          "job": "人事专员",
+          "dept": "行政部",
+          "start": "2025-03-01",
+          "end": null,
+          "status": "有效"
+        },
+        {
+          "job": "质量专员",
+          "dept": "质量管理部",
+          "start": "2024-06-15",
+          "end": "2025-02-28",
+          "status": "已结束"
+        }
+      ],
+      "changes": [
+        {
+          "title": "调入行政部",
+          "job": "人事专员",
+          "date": "2025-03-01"
+        },
+        {
+          "title": "入职建档",
+          "job": "质量专员",
+          "date": "2024-06-15"
+        }
+      ],
+      "audit": [
+        {
+          "item": "岗位调整",
+          "before": "质量专员",
+          "after": "人事专员",
+          "actor": "丁明宜",
+          "at": "2025-03-01 09:20"
+        },
+        {
+          "item": "部门调整",
+          "before": "质量管理部",
+          "after": "行政部",
+          "actor": "丁明宜",
+          "at": "2025-03-01 09:20"
+        }
+      ]
+    },
+    {
+      "id": "YD9002",
+      "name": "苏和宜",
+      "dept": "行政部",
+      "job": "行政专员",
+      "date": "2024-06-15",
+      "status": "在职",
+      "kind": null,
+      "cadre": null,
+      "face": null,
+      "assignments": [
+        {
+          "job": "行政专员",
+          "dept": "行政部",
+          "start": "2024-06-15",
+          "end": null,
+          "status": "有效"
+        }
+      ],
+      "changes": [],
+      "audit": []
+    },
+    {
+      "id": "YD9003",
+      "name": "林扬宜",
+      "dept": "行政部",
+      "job": "部门负责人",
+      "date": "2023-01-01",
+      "status": "在职",
+      "kind": null,
+      "cadre": {
+        "value": "中层领导",
+        "at": "2026-10-08 10:30",
+        "actor": "丁明宜",
+        "basis": "人事确认名单 HR-2026-018"
+      },
+      "face": null,
+      "assignments": [
+        {
+          "job": "部门负责人",
+          "dept": "行政部",
+          "start": "2023-01-01",
+          "end": null,
+          "status": "有效"
+        }
+      ],
+      "changes": [],
+      "audit": [
+        {
+          "item": "中层类别维护",
+          "before": "普通员工",
+          "after": "中层领导",
+          "actor": "丁明宜",
+          "at": "2026-10-08 10:30",
+          "basis": "人事确认名单 HR-2026-018"
+        }
+      ]
+    },
+    {
+      "id": "YD9004",
+      "name": "林安宜",
+      "dept": "行政部",
+      "job": "行政专员",
+      "date": "2025-08-01",
+      "status": "在职",
+      "kind": null,
+      "cadre": null,
+      "face": null,
+      "assignments": [
+        {
+          "job": "行政专员",
+          "dept": "行政部",
+          "start": "2025-08-01",
+          "end": null,
+          "status": "有效"
+        }
+      ],
+      "changes": [],
+      "audit": []
+    },
+    {
+      "id": "YD9005",
+      "name": "袁明宜",
+      "dept": "生产一部",
+      "job": "班组长",
+      "date": "2024-02-01",
+      "status": "在职",
+      "kind": null,
+      "cadre": null,
+      "face": null,
+      "assignments": [
+        {
+          "job": "班组长",
+          "dept": "生产一部",
+          "start": "2024-02-01",
+          "end": null,
+          "status": "有效"
+        }
+      ],
+      "changes": [],
+      "audit": []
+    },
+    {
+      "id": "YD9006",
+      "name": "唐新宜",
+      "dept": "生产一部",
+      "job": "操作工",
+      "date": "2025-01-15",
+      "status": "在职",
+      "kind": null,
+      "cadre": null,
+      "face": null,
+      "assignments": [
+        {
+          "job": "操作工",
+          "dept": "生产一部",
+          "start": "2025-01-15",
+          "end": null,
+          "status": "有效"
+        }
+      ],
+      "changes": [],
+      "audit": []
+    },
+    {
+      "id": "YD9007",
+      "name": "冯和宜",
+      "dept": "质量管理部",
+      "job": "质量工程师",
+      "date": "2024-04-01",
+      "status": "在职",
+      "kind": null,
+      "cadre": null,
+      "face": null,
+      "assignments": [
+        {
+          "job": "质量工程师",
+          "dept": "质量管理部",
+          "start": "2024-04-01",
+          "end": null,
+          "status": "有效"
+        }
+      ],
+      "changes": [],
+      "audit": []
+    },
+    {
+      "id": "YD9008",
+      "name": "郭林宜",
+      "dept": "质量管理部",
+      "job": "检验员",
+      "date": "2023-09-01",
+      "status": "已离职",
+      "kind": null,
+      "cadre": null,
+      "face": null,
+      "assignments": [
+        {
+          "job": "检验员",
+          "dept": "质量管理部",
+          "start": "2023-09-01",
+          "end": "2026-10-31",
+          "status": "已结束"
+        }
+      ],
+      "changes": [],
+      "audit": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TK261106001",
+      "type": "部门用券申请",
+      "applicant": "何可宜",
+      "dept": "销售部",
+      "node": "行政部独立复核",
+      "arrivedAt": "2026-11-06 09:18",
+      "status": "待处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "submittedAt": "2026-11-06 09:00",
+      "history": [
+        {
+          "node": "部门负责人审批",
+          "actor": "袁悦宜",
+          "actorId": "PC-DCA",
+          "at": "2026-11-06 09:15",
+          "result": "同意",
+          "opinion": "按接待安排核准用券数量"
+        }
+      ],
+      "originalNode": "行政部独立复核",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "用券日期",
+          "2026-11-06"
+        ],
+        [
+          "用券数量",
+          "12 张"
+        ],
+        [
+          "使用部门",
+          "销售部"
+        ],
+        [
+          "申请事由",
+          "客户来访接待用餐"
+        ]
+      ]
+    },
+    {
+      "id": "TK261106002",
+      "type": "请假申请",
+      "applicant": "林扬宜",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-06 09:10",
+      "status": "待处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "请假类型",
+          "事假"
+        ],
+        [
+          "开始时间",
+          "2026-11-09 08:00"
+        ],
+        [
+          "结束时间",
+          "2026-11-09 17:00"
+        ],
+        [
+          "请假事由",
+          "个人事务"
+        ]
+      ]
+    },
+    {
+      "id": "TK261106003",
+      "type": "员工手工用券",
+      "applicant": "苏和宜",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-06 08:56",
+      "status": "待处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "用券日期",
+          "2026-11-06"
+        ],
+        [
+          "用券数量",
+          "1 张"
+        ],
+        [
+          "申请事由",
+          "工作用餐"
+        ]
+      ]
+    },
+    {
+      "id": "TK261106004",
+      "type": "当天补卡",
+      "applicant": "林安宜",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-06 08:40",
+      "status": "待处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "补卡日期",
+          "2026-11-06"
+        ],
+        [
+          "补卡时段",
+          "上班"
+        ],
+        [
+          "申请事由",
+          "设备未识别"
+        ]
+      ]
+    },
+    {
+      "id": "TK261106005",
+      "type": "南园午餐申请",
+      "applicant": "赵远宜",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-06 08:32",
+      "status": "待处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "用餐日期",
+          "2026-11-06"
+        ],
+        [
+          "用餐地点",
+          "南园"
+        ],
+        [
+          "申请事由",
+          "园区工作用餐"
+        ]
+      ]
+    },
+    {
+      "id": "TK261106006",
+      "type": "普通访客申请",
+      "applicant": "郭林宜",
+      "visitingCompany": "星源制造",
+      "approvalDepartment": "销售部",
+      "node": "被访人审批",
+      "arrivedAt": "2026-11-06 08:25",
+      "status": "待处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "被访人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "来访单位",
+          "星源制造"
+        ],
+        [
+          "到访时间",
+          "2026-11-06 10:00"
+        ],
+        [
+          "预计离厂",
+          "2026-11-06 16:00"
+        ],
+        [
+          "来访事由",
+          "设备技术交流"
+        ]
+      ]
+    },
+    {
+      "id": "TK261106007",
+      "type": "出差申请",
+      "applicant": "苏和宜",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-06 08:20",
+      "status": "待处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "开始时间",
+          "2026-11-09 08:00"
+        ],
+        [
+          "结束时间",
+          "2026-11-10 17:00"
+        ],
+        [
+          "出差地点",
+          "南京"
+        ],
+        [
+          "出差事由",
+          "供应商技术沟通"
+        ]
+      ]
+    },
+    {
+      "id": "TK261106008",
+      "type": "临时出门证",
+      "applicant": "林安宜",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-06 08:06",
+      "status": "待处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "外出日期",
+          "2026-11-06"
+        ],
+        [
+          "开始时间",
+          "14:00"
+        ],
+        [
+          "结束时间",
+          "16:00"
+        ],
+        [
+          "外出事由",
+          "工作事务"
+        ]
+      ]
+    },
+    {
+      "id": "TK261105001",
+      "type": "请假申请",
+      "applicant": "林扬宜",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-05 09:10",
+      "status": "已处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "请假类型",
+          "年假"
+        ],
+        [
+          "开始时间",
+          "2026-11-05 08:00"
+        ],
+        [
+          "结束时间",
+          "2026-11-05 12:00"
+        ],
+        [
+          "请假事由",
+          "家庭安排"
+        ]
+      ]
+    },
+    {
+      "id": "TK261105002",
+      "type": "员工手工用券",
+      "applicant": "苏和宜",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-05 08:56",
+      "status": "已处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "用券日期",
+          "2026-11-05"
+        ],
+        [
+          "用券数量",
+          "2 张"
+        ],
+        [
+          "申请事由",
+          "项目协同用餐"
+        ]
+      ]
+    },
+    {
+      "id": "TK261105003",
+      "type": "当天补卡",
+      "applicant": "林安宜",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-05 08:40",
+      "status": "已处理",
+      "assignee": "丁明宜",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "丁明宜",
+      "details": [
+        [
+          "补卡日期",
+          "2026-11-05"
+        ],
+        [
+          "补卡时段",
+          "下班"
+        ],
+        [
+          "申请事由",
+          "刷卡未记录"
+        ]
+      ]
+    },
+    {"id": "TK-M01-01", "type": "普通访客预约", "applicant": "梁亦宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "丁明宜", "assigneeId": "PC-LJ", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-03"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "history": [{"node": "被访人审批", "actor": "唐知宜", "at": "2026-11-07 15:30", "result": "同意", "opinion": "已核对来访安排"}], "peerDecision": "同意"},
+    {"id": "TK-M01-02", "type": "普通访客预约", "applicant": "顾新宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "丁明宜", "assigneeId": "PC-LJ", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-11"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "peerDecision": "待处理"},
+    {"id": "TK-M01-03", "type": "普通访客预约", "applicant": "叶悦宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "丁明宜", "assigneeId": "PC-LJ", "status": "已处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-05"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "peerDecision": "待处理", "result": "驳回", "handledAt": "2026-11-07 16:10", "opinion": "来访安排需重新确认"},
+    {"id": "TK-M01-04", "type": "普通访客预约", "applicant": "陈宁宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "丁明宜", "assigneeId": "PC-LJ", "status": "已处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-08"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "peerDecision": "同意", "result": "同意", "handledAt": "2026-11-07 16:21"},
+    {"id": "TK-M01-05", "type": "普通访客预约", "applicant": "邵言宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "丁明宜", "assigneeId": "PC-LJ", "status": "已撤权", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-12"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "canHandle": false},
+    {"id": "TK-M01-06", "type": "普通访客预约", "applicant": "方青宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "丁明宜", "assigneeId": "PC-LJ", "status": "UNKNOWN", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-13"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "resultState": "UNKNOWN"},
+    {"id": "TK-M01-07", "type": "货运预约", "applicant": "冯宇宜", "approvalDepartment": "销售部", "node": "审批记录待核对", "assignee": "丁明宜", "assigneeId": "PC-LJ", "status": "只读", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-06"], ["货运目的", "发货"], ["业务状态", "结果待确认"]], "reference": true},
+    {"id": "TK-M01-08", "type": "普通访客预约", "applicant": "陈安宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "唐知宜", "assigneeId": "PC-ZC", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-14"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]]},
+    {"id": "TK-M02-09", "type": "普通访客预约", "applicant": "许亦宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "唐知宜", "assigneeId": "PC-ZC", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-M02-09"], ["计划时段", "2026-11-09 14:00–16:00"], ["预约人数", "1 人"]], "outcome": "success", "version": 1},
+    {"id": "TK-M02-10", "type": "普通访客预约", "applicant": "徐林宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "唐知宜", "assigneeId": "PC-ZC", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-M02-10"], ["计划时段", "2026-11-09 14:00–16:00"], ["预约人数", "1 人"]], "outcome": "failure", "version": 1},
+    {"id": "TK-M02-11", "type": "普通访客预约", "applicant": "周禾宜", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "唐知宜", "assigneeId": "PC-ZC", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-M02-11"], ["计划时段", "2026-11-09 14:00–16:00"], ["预约人数", "1 人"]], "outcome": "unknown", "version": 1}
+  ],
+  "permissions": {
+    "actor": {
+      "id": "SYS008",
+      "name": "沈晓宜",
+      "label": "指定系统权限管理员",
+      "designatedAdmin": true,
+      "readOnly": false
+    },
+    "resources": {
+      "department": [
+        "行政部",
+        "销售部",
+        "生产一部",
+        "生产二部",
+        "质量管理部",
+        "技术研发部",
+        "财务部"
+      ],
+      "team": [
+        "生产一部 · 一班",
+        "生产一部 · 二班",
+        "生产二部 · 一班"
+      ],
+      "point": [
+        "南门值守点",
+        "北门值守点"
+      ],
+      "place": [
+        "南园",
+        "北园"
+      ],
+      "canteen": [
+        "南园食堂"
+      ]
+    },
+    "grants": [
+      {
+        "id": "GR202611001",
+        "employeeId": "YD9001",
+        "role": "SP-HR",
+        "scope": [
+          "行政部"
+        ],
+        "start": "2026-10-08",
+        "end": "",
+        "actor": "沈晓宜",
+        "at": "2026-10-08 10:30",
+        "reason": "行政部人事职责安排",
+        "state": "active"
+      },
+      {
+        "id": "GR202611002",
+        "employeeId": "YD9005",
+        "role": "SP-ATT",
+        "scope": [
+          "生产一部 · 一班"
+        ],
+        "start": "2026-10-09",
+        "end": "",
+        "actor": "沈晓宜",
+        "at": "2026-10-09 09:20",
+        "reason": "班组考勤排班工作安排",
+        "state": "active"
+      },
+      {
+        "id": "GR202611003",
+        "employeeId": "YD9002",
+        "role": "SP-CAN-OPS",
+        "scope": [
+          "南园食堂"
+        ],
+        "start": "2026-10-12",
+        "end": "2026-12-31",
+        "actor": "沈晓宜",
+        "at": "2026-10-12 11:00",
+        "reason": "食堂运营协同工作",
+        "state": "active"
+      },
+      {
+        "id": "GR202611004",
+        "employeeId": "YD9004",
+        "role": "SP-GUARD",
+        "scope": [
+          "南门值守点"
+        ],
+        "start": "2026-09-01",
+        "end": "2026-10-31",
+        "actor": "沈晓宜",
+        "at": "2026-09-01 09:00",
+        "reason": "阶段性值守工作",
+        "state": "active"
+      },
+      {
+        "id": "GR202611005",
+        "employeeId": "YD9007",
+        "role": "SP-VIS-ACCESS",
+        "scope": [
+          "北园"
+        ],
+        "start": "2026-08-01",
+        "end": "",
+        "actor": "沈晓宜",
+        "at": "2026-08-01 14:00",
+        "reason": "阶段性门禁管理安排",
+        "state": "revoked",
+        "revokedAt": "2026-10-31 16:20"
+      }
+    ],
+    "inherited": [
+      {
+        "employeeId": "YD9003",
+        "duty": "部门负责人",
+        "department": "行政部",
+        "start": "2023-01-01",
+        "capabilities": "本部门必要管理与合法审批资格",
+        "scope": "行政部；审批仍须本人当前有效任务"
+      }
+    ],
+    "audit": [
+      {
+        "id": "AU20261031001",
+        "employeeId": "YD9007",
+        "role": "SP-VIS-ACCESS",
+        "action": "撤销授权",
+        "before": "北园",
+        "after": "已撤销",
+        "actor": "沈晓宜",
+        "at": "2026-10-31 16:20",
+        "reason": "阶段性工作结束"
+      }
+    ]
+  }
+}

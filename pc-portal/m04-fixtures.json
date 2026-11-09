@@ -1,0 +1,1396 @@
+{
+  "grant": {
+    "read": true,
+    "actor": "苏文宜",
+    "departments": [
+      "行政部",
+      "生产一部"
+    ],
+    "teams": [
+      "G01",
+      "G02",
+      "G03"
+    ],
+    "to": "2026-11-30",
+    "actions": [
+      "shift-edit",
+      "group-edit",
+      "schedule-adjust",
+      "schedule-import",
+      "schedule-activate",
+      "overtime-allocate",
+      "quota-read",
+      "task-read",
+      "schedule-configure"
+    ],
+    "from": "2026-11-01",
+    "allocation": {
+      "staff": [
+        "YD9004",
+        "YD9001",
+        "YD9011",
+        "YD9012"
+      ],
+      "months": [
+        "2026-11"
+      ]
+    }
+  },
+  "people": [
+    {
+      "id": "YD9004",
+      "name": "林安宜",
+      "department": "行政部",
+      "active": true
+    },
+    {
+      "id": "YD9000",
+      "name": "唐知宜",
+      "department": "行政部",
+      "active": true
+    },
+    {
+      "id": "YD9009",
+      "name": "郭清宜",
+      "department": "行政部",
+      "active": true
+    },
+    {
+      "id": "YD9011",
+      "name": "徐知宜",
+      "department": "生产一部",
+      "active": true
+    },
+    {
+      "id": "YD9012",
+      "name": "程嘉宜",
+      "department": "生产一部",
+      "active": true
+    },
+    {
+      "id": "YD9010",
+      "name": "梁禾宜",
+      "department": "行政部",
+      "active": false
+    },
+    {
+      "id": "YD9013",
+      "name": "顾可宜",
+      "department": "销售部",
+      "active": true
+    },
+    {
+      "id": "YD9001",
+      "name": "赵远宜",
+      "department": "行政部",
+      "active": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "G01",
+      "name": "行政一组",
+      "department": "行政部",
+      "members": [
+        "YD9004",
+        "YD9000",
+        "YD9001"
+      ],
+      "locations": [
+        "L01"
+      ]
+    },
+    {
+      "id": "G02",
+      "name": "内保轮班组",
+      "department": "行政部",
+      "members": [
+        "YD9009"
+      ],
+      "locations": [
+        "L02"
+      ]
+    },
+    {
+      "id": "G03",
+      "name": "装配一组",
+      "department": "生产一部",
+      "members": [
+        "YD9011",
+        "YD9012"
+      ],
+      "locations": [
+        "L03"
+      ]
+    },
+    {
+      "id": "GX",
+      "name": "销售一组",
+      "department": "销售部",
+      "members": [
+        "YD9013"
+      ],
+      "locations": [
+        "LX"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "L01",
+      "name": "综合楼考勤点",
+      "department": "行政部"
+    },
+    {
+      "id": "L02",
+      "name": "东门值守考勤点",
+      "department": "行政部",
+      "pointId": "P01"
+    },
+    {
+      "id": "L03",
+      "name": "装配车间考勤点",
+      "department": "生产一部",
+      "pointId": "P03"
+    },
+    {
+      "id": "LX",
+      "name": "销售考勤点",
+      "department": "销售部"
+    },
+    {
+      "id": "L04",
+      "name": "行政楼西侧考勤点",
+      "department": "行政部"
+    },
+    {
+      "id": "L05",
+      "name": "装配西门考勤点",
+      "department": "生产一部",
+      "pointId": "P01"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "S01",
+      "name": "行政白班",
+      "type": "白班",
+      "start": "08:00",
+      "end": "17:00",
+      "overnight": false,
+      "teams": [
+        "G01",
+        "G03"
+      ],
+      "enabled": true,
+      "version": "V1",
+      "rule": "ATT-R03",
+      "punchIn": [
+        "07:30",
+        "08:30"
+      ],
+      "punchOut": [
+        "16:30",
+        "17:30"
+      ]
+    },
+    {
+      "id": "S02",
+      "name": "生产夜班",
+      "type": "夜班",
+      "start": "20:00",
+      "end": "05:00",
+      "overnight": true,
+      "teams": [
+        "G03"
+      ],
+      "enabled": true,
+      "version": "V2",
+      "rule": "ATT-R01",
+      "punchIn": [
+        "19:30",
+        "20:30"
+      ],
+      "punchOut": [
+        "04:30",
+        "05:30"
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "内保夜班",
+      "type": "内保轮班",
+      "start": "19:00",
+      "end": "07:00",
+      "overnight": true,
+      "teams": [
+        "G02"
+      ],
+      "enabled": true,
+      "version": "V1",
+      "rule": "ATT-R02",
+      "punchIn": [
+        "18:30",
+        "19:30"
+      ],
+      "punchOut": [
+        "06:30",
+        "07:30"
+      ]
+    },
+    {
+      "id": "S04",
+      "name": "休息",
+      "type": "休息",
+      "start": "",
+      "end": "",
+      "overnight": false,
+      "teams": [
+        "G01",
+        "G02",
+        "G03"
+      ],
+      "enabled": true,
+      "version": "V1",
+      "rule": "—"
+    },
+    {
+      "id": "S05",
+      "name": "装配旧白班",
+      "type": "白班",
+      "start": "07:30",
+      "end": "16:30",
+      "overnight": false,
+      "teams": [
+        "G03"
+      ],
+      "enabled": false,
+      "version": "V1",
+      "rule": "ATT-R01",
+      "punchIn": [
+        "07:00",
+        "08:00"
+      ],
+      "punchOut": [
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "id": "SX",
+      "name": "销售白班",
+      "type": "白班",
+      "start": "08:00",
+      "end": "17:00",
+      "overnight": false,
+      "teams": [
+        "GX"
+      ],
+      "enabled": true,
+      "version": "V1",
+      "rule": "ATT-R01",
+      "punchIn": [
+        "07:30",
+        "08:30"
+      ],
+      "punchOut": [
+        "16:30",
+        "17:30"
+      ]
+    }
+  ],
+  "schedules": [
+    {
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-02",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-03",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-04",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-05",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-08",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9000",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-02",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-03",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-04",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-05",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-08",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "YD9009",
+      "date": "2026-11-02",
+      "shift": "S03",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "YD9009",
+      "date": "2026-11-03",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "YD9009",
+      "date": "2026-11-04",
+      "shift": "S03",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "YD9009",
+      "date": "2026-11-05",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "YD9009",
+      "date": "2026-11-06",
+      "shift": "S03",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "YD9009",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G02",
+      "person": "YD9009",
+      "date": "2026-11-08",
+      "shift": "S03",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-02",
+      "shift": "S02",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-03",
+      "shift": "S02",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-04",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-05",
+      "shift": "S02",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-06",
+      "shift": "S02",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-08",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-02",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-03",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-04",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-05",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-07",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-08",
+      "shift": "S04",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "GX",
+      "person": "YD9013",
+      "date": "2026-11-02",
+      "shift": "SX",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "GX",
+      "person": "YD9013",
+      "date": "2026-11-03",
+      "shift": "SX",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "GX",
+      "person": "YD9013",
+      "date": "2026-11-04",
+      "shift": "SX",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "GX",
+      "person": "YD9013",
+      "date": "2026-11-05",
+      "shift": "SX",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "GX",
+      "person": "YD9013",
+      "date": "2026-11-06",
+      "shift": "SX",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "GX",
+      "person": "YD9013",
+      "date": "2026-11-07",
+      "shift": "SX",
+      "version": "PB-261102-V1"
+    },
+    {
+      "team": "GX",
+      "person": "YD9013",
+      "date": "2026-11-08",
+      "shift": "SX",
+      "version": "PB-261102-V1"
+    }
+  ],
+  "records": [
+    {
+      "id": "AR-01",
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1",
+      "state": "缺上班卡",
+      "category": "待核对",
+      "events": [
+        {
+          "id": "EV-01-1",
+          "occurredAt": "2026-11-06 17:02",
+          "deviceId": "DEV-01",
+          "source": "设备打卡"
+        }
+      ],
+      "correction": {
+        "id": "BK-261106-01",
+        "status": "待审批",
+        "missing": "上班",
+        "task": "TK261106004",
+        "taskLink": true
+      }
+    },
+    {
+      "id": "AR-02",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-05",
+      "shift": "S01",
+      "version": "PB-261102-V1",
+      "state": "已修正",
+      "category": "正常工时",
+      "events": [
+        {
+          "id": "EV-02-1",
+          "occurredAt": "2026-11-05 07:56",
+          "deviceId": "DEV-01",
+          "source": "设备打卡"
+        }
+      ],
+      "correction": {
+        "id": "BK-261105-02",
+        "status": "通过",
+        "missing": "下班",
+        "task": "TK-ATT-10502",
+        "revision": "RV-261105-01",
+        "adjusted": "17:01",
+        "actor": "部门负责人"
+      }
+    },
+    {
+      "id": "AR-03",
+      "team": "G01",
+      "person": "YD9000",
+      "date": "2026-11-06",
+      "shift": "S01",
+      "version": "PB-261102-V1",
+      "state": "免打卡",
+      "category": "免打卡",
+      "events": [],
+      "correction": null
+    },
+    {
+      "id": "AR-04",
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-09",
+      "shift": null,
+      "version": null,
+      "state": "无有效排班",
+      "category": "待排班",
+      "events": [],
+      "correction": null
+    },
+    {
+      "id": "AR-05",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-06",
+      "shift": "S02",
+      "version": "PB-261102-V1",
+      "state": "缺下班卡",
+      "category": "待核对",
+      "events": [
+        {
+          "id": "EV-05-1",
+          "occurredAt": "2026-11-06 19:55",
+          "deviceId": "DEV-03",
+          "source": "设备打卡"
+        }
+      ],
+      "correction": {
+        "id": "BK-261106-05",
+        "status": "待处理",
+        "missing": "下班",
+        "paused": true
+      }
+    },
+    {
+      "id": "AR-06",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-04",
+      "shift": "S01",
+      "version": "PB-261102-V1",
+      "state": "缺上班卡",
+      "category": "待核对",
+      "events": [
+        {
+          "id": "EV-06-1",
+          "occurredAt": "2026-11-04 17:02",
+          "deviceId": "DEV-01",
+          "source": "设备打卡"
+        }
+      ],
+      "correction": {
+        "id": "BK-261104-03",
+        "status": "拒绝",
+        "missing": "上班",
+        "task": "TK-ATT-10403"
+      }
+    },
+    {
+      "id": "AR-07",
+      "team": "G02",
+      "person": "YD9009",
+      "date": "2026-11-06",
+      "shift": "S03",
+      "version": "PB-261102-V1",
+      "state": "正常",
+      "category": "正常工时",
+      "events": [
+        {
+          "id": "EV-07-1",
+          "occurredAt": "2026-11-06 18:54",
+          "deviceId": "DEV-02",
+          "source": "设备打卡"
+        }
+      ],
+      "correction": null
+    },
+    {
+      "id": "AR-X",
+      "team": "GX",
+      "person": "YD9013",
+      "date": "2026-11-06",
+      "shift": "SX",
+      "version": "PB-261102-V1",
+      "state": "正常",
+      "category": "正常工时",
+      "events": [
+        {
+          "id": "EV-X-1",
+          "occurredAt": "2026-11-06 08:00",
+          "deviceId": "DEV-X",
+          "source": "设备打卡"
+        }
+      ],
+      "correction": null
+    }
+  ],
+  "overtime": [
+    {
+      "id": "OT-001",
+      "qualificationId": "OQ-001",
+      "category": "平日厂内",
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-06",
+      "qualification": "通过",
+      "evidence": "匹配",
+      "factType": "设备记录",
+      "fact": "EV-OT-01",
+      "shiftStart": "08:00",
+      "shiftEnd": "17:00",
+      "exit": "18:17",
+      "voucher": true
+    },
+    {
+      "id": "OT-002",
+      "qualificationId": "OQ-002",
+      "category": "休日厂内",
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-07",
+      "qualification": "通过",
+      "evidence": "匹配",
+      "factType": "设备记录",
+      "fact": "EV-OT-02",
+      "recognized": 3
+    },
+    {
+      "id": "OT-003",
+      "qualificationId": "OQ-003",
+      "category": "休日出差",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-08",
+      "qualification": "通过",
+      "evidence": "匹配",
+      "factType": "已生效出差",
+      "fact": "TR-261108",
+      "days": 1
+    },
+    {
+      "id": "OT-004",
+      "qualificationId": "OQ-004",
+      "category": "节日厂内",
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-01",
+      "qualification": "通过",
+      "evidence": "匹配",
+      "factType": "设备记录",
+      "fact": "EV-OT-04",
+      "recognized": 4
+    },
+    {
+      "id": "OT-005",
+      "qualificationId": "OQ-005",
+      "category": "节日出差",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-01",
+      "qualification": "通过",
+      "evidence": "匹配",
+      "factType": "已生效出差",
+      "fact": "TR-261101",
+      "days": 1
+    },
+    {
+      "id": "OT-006",
+      "qualificationId": "OQ-006",
+      "category": "平日厂内",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-06",
+      "qualification": "通过",
+      "evidence": "匹配",
+      "factType": "设备记录",
+      "fact": "EV-OT-06",
+      "shiftStart": "20:00",
+      "shiftEnd": "05:00",
+      "exit": "06:30"
+    },
+    {
+      "id": "OT-007",
+      "qualificationId": "OQ-007",
+      "category": "平日厂内",
+      "team": "G01",
+      "person": "YD9000",
+      "date": "2026-11-06",
+      "qualification": "拒绝",
+      "evidence": "匹配",
+      "factType": "设备记录",
+      "fact": "EV-OT-07"
+    },
+    {
+      "id": "OT-008",
+      "qualificationId": "OQ-008",
+      "category": "平日厂内",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-06",
+      "qualification": "通过",
+      "evidence": "待确认",
+      "factType": "设备记录",
+      "fact": null
+    },
+    {
+      "id": "OT-009",
+      "qualificationId": "OQ-009",
+      "category": "平日厂内",
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-05",
+      "qualification": "通过",
+      "evidence": "匹配",
+      "factType": "设备记录",
+      "fact": "EV-OT-09",
+      "shiftStart": "08:00",
+      "shiftEnd": "17:00",
+      "exit": "17:59"
+    },
+    {
+      "id": "OT-010",
+      "qualificationId": "OQ-010",
+      "category": "休日厂内",
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-08",
+      "qualification": "结果待确认",
+      "evidence": "匹配",
+      "factType": "设备记录",
+      "fact": "EV-OT-10"
+    },
+    {
+      "id": "OT-011",
+      "qualificationId": "OQ-011",
+      "category": "节日厂内",
+      "team": "GX",
+      "person": "YD9013",
+      "date": "2026-11-01",
+      "qualification": "通过",
+      "evidence": "匹配",
+      "factType": "设备记录",
+      "fact": "EV-X",
+      "recognized": 7
+    }
+  ],
+  "reports": [
+    {
+      "id": "RP-001",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-05",
+      "category": "正常工时",
+      "amount": 8,
+      "unit": "小时",
+      "revision": "RV-261105-01",
+      "state": "已核算"
+    },
+    {
+      "id": "RP-002",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-03",
+      "category": "年休",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-003",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-04",
+      "category": "事假",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-004",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-10",
+      "category": "病假",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-005",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-06",
+      "category": "工伤",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-006",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-07",
+      "category": "产假",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-007",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-08",
+      "category": "婚假",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-008",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-02",
+      "category": "丧假",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-009",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-03",
+      "category": "陪产假",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-010",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-04",
+      "category": "哺乳假",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-011",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-05",
+      "category": "调休",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-012",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-06",
+      "category": "厂外出差",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-013",
+      "team": "G01",
+      "person": "YD9004",
+      "date": "2026-11-06",
+      "category": "平日厂内",
+      "amount": 0.5,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-014",
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-07",
+      "category": "休日厂内",
+      "amount": 3,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-015",
+      "team": "G03",
+      "person": "YD9011",
+      "date": "2026-11-08",
+      "category": "休日出差",
+      "amount": 8,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-016",
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-01",
+      "category": "节日厂内",
+      "amount": 4,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-017",
+      "team": "G01",
+      "person": "YD9001",
+      "date": "2026-11-01",
+      "category": "节日出差",
+      "amount": 8,
+      "unit": "小时",
+      "revision": null,
+      "state": "已核算"
+    },
+    {
+      "id": "RP-018",
+      "team": "G03",
+      "person": "YD9012",
+      "date": "2026-11-09",
+      "category": "待排班",
+      "amount": null,
+      "unit": "小时",
+      "revision": null,
+      "state": "待排班"
+    }
+  ],
+  "quotas": [
+    {
+      "id": "AL-01",
+      "team": "G01",
+      "person": "YD9001",
+      "period": "2026-04-01 至 2027-03-31",
+      "total": 15,
+      "used": 6,
+      "reserved": 2,
+      "years": "20 年及以上",
+      "status": "在职",
+      "history": [
+        [
+          "ALR-01",
+          "年休批准",
+          "已核销 6 天"
+        ],
+        [
+          "ALR-02",
+          "待审批",
+          "占用 2 天"
+        ],
+        [
+          "ALR-03",
+          "审批拒绝",
+          "已释放 1 天"
+        ]
+      ]
+    },
+    {
+      "id": "AL-02",
+      "team": "G03",
+      "person": "YD9011",
+      "period": "2026-04-01 至 2027-03-31",
+      "total": 10,
+      "used": 3,
+      "reserved": 0,
+      "years": "—",
+      "status": "在职",
+      "history": [
+        [
+          "ALR-04",
+          "年休批准",
+          "已核销 3 天"
+        ]
+      ]
+    },
+    {
+      "id": "AL-03",
+      "team": "G01",
+      "person": "YD9010",
+      "period": "2026-04-01 至 2027-03-31",
+      "total": 10,
+      "used": 4,
+      "reserved": 0,
+      "years": "—",
+      "status": "待核对",
+      "history": [
+        [
+          "ALR-05",
+          "HR 离职业务触发",
+          "折算待核对，未调整余额"
+        ]
+      ]
+    },
+    {
+      "id": "AL-X",
+      "team": "GX",
+      "person": "YD9013",
+      "period": "2026-04-01 至 2027-03-31",
+      "total": 15,
+      "used": 0,
+      "reserved": 0,
+      "years": "—",
+      "status": "在职",
+      "history": []
+    }
+  ],
+  "batches": [
+    {
+      "id": "PB-261102",
+      "status": "已生效",
+      "version": "PB-261102-V1",
+      "date": "2026-11-02",
+      "actor": "苏文宜",
+      "count": 36,
+      "teams": [
+        "G01",
+        "G02",
+        "G03"
+      ]
+    }
+  ],
+  "imports": [
+    {
+      "id": "PI-261109-01",
+      "name": "装配一组排班.xlsx",
+      "rows": [
+        {
+          "team": "G03",
+          "person": "YD9011",
+          "date": "2026-11-06",
+          "shift": "S02",
+          "version": "PB-261102-V1"
+        },
+        {
+          "team": "G03",
+          "person": "YD9012",
+          "date": "2026-11-10",
+          "shift": "S05",
+          "version": "PB-261102-V1"
+        },
+        {
+          "team": "G03",
+          "person": "YD9012",
+          "date": "2026-11-10",
+          "shift": "S01",
+          "version": "PB-261102-V1"
+        }
+      ]
+    },
+    {
+      "id": "PI-261109-02",
+      "name": "内保轮班安排.xlsx",
+      "rows": [
+        {
+          "team": "G02",
+          "person": "YD9009",
+          "date": "2026-11-09",
+          "shift": "S04",
+          "version": "PB-261102-V1"
+        },
+        {
+          "team": "G02",
+          "person": "YD9009",
+          "date": "2026-11-10",
+          "shift": "S03",
+          "version": "PB-261102-V1"
+        }
+      ]
+    }
+  ],
+  "changes": [],
+  "allocations": [],
+  "cycle": [
+    {
+      "team": "G02",
+      "sequence": [
+        "S03",
+        "S04"
+      ],
+      "start": "2026-11-02",
+      "version": "PB-261102-V1"
+    }
+  ],
+  "calendar": {
+    "2026-11-01": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-02": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-03": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-04": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-05": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-06": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-07": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-08": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-09": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-10": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-11": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-12": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-13": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-14": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-15": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-16": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-17": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-18": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-19": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-20": {
+      "working": false,
+      "label": "企业休息日"
+    },
+    "2026-11-21": {
+      "working": true,
+      "label": "调休工作日"
+    },
+    "2026-11-22": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-23": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-24": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-25": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-26": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-27": {
+      "working": true,
+      "label": "工作日"
+    },
+    "2026-11-28": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-29": {
+      "working": false,
+      "label": "休息日"
+    },
+    "2026-11-30": {
+      "working": true,
+      "label": "工作日"
+    }
+  },
+  "scheduleRules": []
+}

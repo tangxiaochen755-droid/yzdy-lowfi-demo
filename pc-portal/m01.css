@@ -1,0 +1,22 @@
+/* M01 composition only. Shell, controls, typography and surfaces come from PC-DS-V1. */
+.m01-table td { overflow-wrap:anywhere; }
+.m01-table td:last-child { white-space:nowrap; }
+.m01-table .filters { flex-wrap:wrap; }
+.m01-table .filters input[type="date"] { min-width:140px; }
+.m01-facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--gap,12px); padding:0 16px 16px; }
+.m01-facts > div { padding:12px; border:1px solid var(--line); border-radius:var(--radius,8px); }
+.m01-facts p { margin:6px 0 0; color:var(--text-secondary); }
+.m01-destinations { padding:0; }
+.m01-destinations .card { padding:16px; display:grid; gap:8px; justify-items:start; }
+.m01-destinations h2 { margin:0; font-size:var(--type-section-title); }
+.m01-metric { font-size:var(--type-page-title); color:var(--brand); font-variant-numeric:tabular-nums; }
+@media (max-width:1000px) {
+  .m01-facts { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+.m01-inline-action { margin:0 16px 14px; }
+.m01-booking-list td:nth-child(4), .m01-booking-list .m01-booking-purpose { white-space:normal; }
+.m01-booking-list .m01-access-status { margin-top:3px; }
+.m01-list-maintenance td:last-child { white-space:nowrap; }
+.m01-list-maintenance td:last-child button + button { margin-left:10px; }
+.m01-list-dates { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+#dialog [data-list-form] .edit-field { margin-bottom:10px; }
