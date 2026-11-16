@@ -1,3 +1,10 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>扬锻综合信息化</title>  <script type="module" crossorigin src="/yzdy-lowfi-demo/assets/index-ChOSy1hD.js"></script>
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>扬锻综合信息化</title><script>// Preserve existing mini hash routes while moving old PC bookmarks to the current runtime.
+(()=>{
+ const legacy=location.hash.slice(1).split('?')[0];
+ if(legacy && legacy!=='/' && !legacy.startsWith('/pc'))return;
+ const aliases={home:'org',visits:'visits','visits/presence':'presence','visits/lists':'visit-lists',workflows:'approvals','attendance/shifts':'attendance-shifts','attendance/schedules':'attendance-schedules','attendance/teams':'attendance-groups','attendance/rules':'attendance-shifts','attendance/records':'attendance-records','attendance/overtime':'attendance-overtime','attendance/reports':'attendance-reports','attendance/annual-leave':'attendance-quotas','attendance/leave-balances':'attendance-quotas','access/areas':'access-places','access/devices':'access-devices','access/policies':'access-places','access/logs':'access-events','canteen/home':'canteen-accounts','canteen/accounts':'canteen-accounts','canteen/subsidies':'canteen-credits','canteen/rules':'canteen-credits','canteen/vouchers':'canteen-vouchers','canteen/dishes':'canteen-dishes','canteen/menus':'canteen-menus','canteen/terminals':'canteen-terminals','canteen/transactions':'canteen-transactions','canteen/reports':'canteen-reports','organization/employees':'org','organization/roles':'permissions'};
+ const key=legacy.replace(/^\/pc\/?/,'');const url=new URL('pc-portal/',location.href);url.hash='';url.search='';url.searchParams.set('page',aliases[key]||'org');url.searchParams.set('v','51ef9de');location.replace(url.href);
+})();
+</script>  <script type="module" crossorigin src="/yzdy-lowfi-demo/assets/index-ChOSy1hD.js"></script>
   <link rel="stylesheet" crossorigin href="/yzdy-lowfi-demo/assets/index-D5b10Wv9.css">
 </head><body><div id="app"></div></body></html>
