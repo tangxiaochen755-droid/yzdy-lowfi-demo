@@ -38,12 +38,12 @@
     {"id":"ORG99","name":"范围外部门","pointIds":["P99"]}
   ],
   "events": [
-    {"id":"EV-103","person":"许宁宜","pointId":"P01","deviceId":"D103","direction":"离厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 10:15","reportedAt":"2026-11-08 10:42","sync":"离线补传"},
-    {"id":"EV-103","person":"许宁宜","pointId":"P01","deviceId":"D103","direction":"离厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 10:15","reportedAt":"2026-11-08 10:43","sync":"离线补传"},
-    {"id":"EV-102","person":"彭予宜","pointId":"P01","deviceId":"D102","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 09:04","reportedAt":"2026-11-08 09:04","sync":"已上报"},
-    {"id":"EV-101","person":"许宁宜","pointId":"P01","deviceId":"D101","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 09:02","reportedAt":"2026-11-08 09:02","sync":"已上报"},
-    {"id":"EV-100","person":"许宁宜","pointId":"P01","deviceId":"D101","direction":"","source":"FACE_VERIFIED_ONLY","occurredAt":"2026-11-08 09:01","reportedAt":"2026-11-08 09:01","sync":"已上报"},
-    {"id":"EV-210","person":"程辰宜","pointId":"P02","deviceId":"D201","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 08:30","reportedAt":"2026-11-08 08:30","sync":"已上报"},
+    {"id":"EV-103","person":"许泽","pointId":"P01","deviceId":"D103","direction":"离厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 10:15","reportedAt":"2026-11-08 10:42","sync":"离线补传"},
+    {"id":"EV-103","person":"许泽","pointId":"P01","deviceId":"D103","direction":"离厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 10:15","reportedAt":"2026-11-08 10:43","sync":"离线补传"},
+    {"id":"EV-102","person":"苏禾","pointId":"P01","deviceId":"D102","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 09:04","reportedAt":"2026-11-08 09:04","sync":"已上报"},
+    {"id":"EV-101","person":"许泽","pointId":"P01","deviceId":"D101","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 09:02","reportedAt":"2026-11-08 09:02","sync":"已上报"},
+    {"id":"EV-100","person":"许泽","pointId":"P01","deviceId":"D101","direction":"","source":"FACE_VERIFIED_ONLY","occurredAt":"2026-11-08 09:01","reportedAt":"2026-11-08 09:01","sync":"已上报"},
+    {"id":"EV-210","person":"周启明","pointId":"P02","deviceId":"D201","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 08:30","reportedAt":"2026-11-08 08:30","sync":"已上报"},
     {"id":"EV-999","person":"范围外人员","pointId":"P99","deviceId":"D999","direction":"进厂","source":"DEVICE_PASS_EVENT","occurredAt":"2026-11-08 08:00","reportedAt":"2026-11-08 08:00","sync":"已上报"}
   ]
 }

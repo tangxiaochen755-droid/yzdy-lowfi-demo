@@ -1,0 +1,357 @@
+{
+  "businessDate": "2026-11-08",
+  "account": {
+    "id": "GUARD-A",
+    "name": "赵越",
+    "guard": true,
+    "onDuty": true,
+    "readPoints": [
+      "P01",
+      "P02"
+    ],
+    "monitorPoints": [
+      "P01",
+      "P02"
+    ]
+  },
+  "points": {
+    "P01": "东门访客通道",
+    "P02": "西门货运通道",
+    "P03": "装配车间入口",
+    "P04": "综合楼侧门",
+    "P99": "范围外通道"
+  },
+  "events": [
+    {
+      "id": "EV-103",
+      "person": "许泽",
+      "pointId": "P01",
+      "deviceId": "D103",
+      "direction": "离厂",
+      "source": "DEVICE_PASS_EVENT",
+      "occurredAt": "2026-11-08 10:15",
+      "reportedAt": "2026-11-08 10:42",
+      "sync": "离线补传"
+    },
+    {
+      "id": "EV-103",
+      "person": "许泽",
+      "pointId": "P01",
+      "deviceId": "D103",
+      "direction": "离厂",
+      "source": "DEVICE_PASS_EVENT",
+      "occurredAt": "2026-11-08 10:15",
+      "reportedAt": "2026-11-08 10:43",
+      "sync": "离线补传"
+    },
+    {
+      "id": "EV-102",
+      "person": "苏禾",
+      "pointId": "P01",
+      "deviceId": "D102",
+      "direction": "进厂",
+      "source": "DEVICE_PASS_EVENT",
+      "occurredAt": "2026-11-08 09:04",
+      "reportedAt": "2026-11-08 09:04",
+      "sync": "已上报"
+    },
+    {
+      "id": "EV-101",
+      "person": "许泽",
+      "pointId": "P01",
+      "deviceId": "D101",
+      "direction": "进厂",
+      "source": "DEVICE_PASS_EVENT",
+      "occurredAt": "2026-11-08 09:02",
+      "reportedAt": "2026-11-08 09:02",
+      "sync": "已上报"
+    },
+    {
+      "id": "EV-100",
+      "person": "许泽",
+      "pointId": "P01",
+      "deviceId": "D101",
+      "direction": "",
+      "source": "FACE_VERIFIED_ONLY",
+      "occurredAt": "2026-11-08 09:01",
+      "reportedAt": "2026-11-08 09:01",
+      "sync": "已上报"
+    },
+    {
+      "id": "EV-210",
+      "person": "周启明",
+      "pointId": "P02",
+      "deviceId": "D201",
+      "direction": "进厂",
+      "source": "DEVICE_PASS_EVENT",
+      "occurredAt": "2026-11-08 08:30",
+      "reportedAt": "2026-11-08 08:30",
+      "sync": "已上报"
+    },
+    {
+      "id": "EV-999",
+      "person": "范围外人员",
+      "pointId": "P99",
+      "deviceId": "D999",
+      "direction": "进厂",
+      "source": "DEVICE_PASS_EVENT",
+      "occurredAt": "2026-11-08 08:00",
+      "reportedAt": "2026-11-08 08:00",
+      "sync": "已上报"
+    }
+  ],
+  "cameras": [
+    {
+      "id": "C01",
+      "name": "东门监控 01",
+      "group": "东门",
+      "category": "门岗监控",
+      "order": 1,
+      "status": "未连接"
+    },
+    {
+      "id": "C02",
+      "name": "东门监控 02",
+      "group": "东门",
+      "category": "门岗监控",
+      "order": 2,
+      "status": "未连接"
+    },
+    {
+      "id": "C03",
+      "name": "东门监控 03",
+      "group": "东门",
+      "category": "门岗监控",
+      "order": 3,
+      "status": "离线"
+    },
+    {
+      "id": "C04",
+      "name": "东门监控 04",
+      "group": "东门",
+      "category": "门岗监控",
+      "order": 4,
+      "status": "未连接"
+    },
+    {
+      "id": "C05",
+      "name": "东门监控 05",
+      "group": "东门",
+      "category": "门岗监控",
+      "order": 5,
+      "status": "未连接"
+    },
+    {
+      "id": "C06",
+      "name": "西门监控 01",
+      "group": "西门",
+      "category": "门岗监控",
+      "order": 6,
+      "status": "断流"
+    },
+    {
+      "id": "C07",
+      "name": "西门监控 02",
+      "group": "西门",
+      "category": "门岗监控",
+      "order": 7,
+      "status": "未连接"
+    },
+    {
+      "id": "C08",
+      "name": "综合楼监控 03",
+      "group": "综合楼",
+      "category": "厂区其他区域",
+      "order": 8,
+      "status": "未连接"
+    },
+    {
+      "id": "C09",
+      "name": "综合楼监控 04",
+      "group": "综合楼",
+      "category": "厂区其他区域",
+      "order": 9,
+      "status": "未连接"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "AI-001",
+      "cameraId": "C01",
+      "time": "2026-11-08 10:25:00",
+      "type": "陌生人识别",
+      "sourceStatus": "设备告警",
+      "pointId": "P01"
+    },
+    {
+      "id": "AI-002",
+      "cameraId": "C06",
+      "time": "2026-11-08 10:19:00",
+      "type": "陌生人识别",
+      "sourceStatus": "设备告警",
+      "pointId": "P02"
+    },
+    {
+      "id": "AI-999",
+      "cameraId": "C09",
+      "time": "2026-11-08 10:00:00",
+      "type": "陌生人识别",
+      "sourceStatus": "设备告警",
+      "pointId": "P99"
+    }
+  ],
+  "orders": [
+    {
+      "id": "SEC-001",
+      "type": "普通访客",
+      "pointId": "P01",
+      "host": "李静",
+      "department": "行政部",
+      "purpose": "业务交流",
+      "vehicle": "",
+      "date": "2026-11-08",
+      "people": [
+        {
+          "id": "PERSON-1-1",
+          "name": "苏禾",
+          "role": "访客"
+        },
+        {
+          "id": "PERSON-1-2",
+          "name": "顾清",
+          "role": "同行人员"
+        }
+      ]
+    },
+    {
+      "id": "SEC-002",
+      "type": "货运预约",
+      "pointId": "P01",
+      "host": "李静",
+      "department": "行政部",
+      "purpose": "发送货",
+      "vehicle": "苏K·6**28",
+      "date": "2026-11-08",
+      "people": [
+        {
+          "id": "PERSON-2-1",
+          "name": "周启明",
+          "role": "司机"
+        },
+        {
+          "id": "PERSON-2-2",
+          "name": "顾清",
+          "role": "随行人员"
+        }
+      ]
+    },
+    {
+      "id": "SEC-003",
+      "type": "普通访客",
+      "pointId": "P01",
+      "host": "李静",
+      "department": "行政部",
+      "purpose": "业务交流",
+      "vehicle": "",
+      "date": "2026-11-08",
+      "people": [
+        {
+          "id": "PERSON-3-1",
+          "name": "许泽",
+          "role": "访客"
+        },
+        {
+          "id": "PERSON-3-2",
+          "name": "顾清",
+          "role": "同行人员"
+        }
+      ]
+    },
+    {
+      "id": "SEC-004",
+      "type": "货运预约",
+      "pointId": "P02",
+      "host": "李静",
+      "department": "行政部",
+      "purpose": "发送货",
+      "vehicle": "苏K·6**28",
+      "date": "2026-11-08",
+      "people": [
+        {
+          "id": "PERSON-4-1",
+          "name": "周启明",
+          "role": "司机"
+        },
+        {
+          "id": "PERSON-4-2",
+          "name": "顾清",
+          "role": "随行人员"
+        }
+      ]
+    },
+    {
+      "id": "SEC-005",
+      "type": "普通访客",
+      "pointId": "P99",
+      "host": "李静",
+      "department": "行政部",
+      "purpose": "业务交流",
+      "vehicle": "",
+      "date": "2026-11-08",
+      "people": [
+        {
+          "id": "PERSON-5-1",
+          "name": "林宁",
+          "role": "访客"
+        },
+        {
+          "id": "PERSON-5-2",
+          "name": "顾清",
+          "role": "同行人员"
+        }
+      ]
+    }
+  ],
+  "faceEvents": [
+    {
+      "id": "FACE-1-1",
+      "source": "FACE_VERIFIED_ONLY",
+      "orderId": "SEC-001",
+      "personId": "PERSON-1-1",
+      "pointId": "P01",
+      "occurredAt": "2026-11-08 10:21:00"
+    },
+    {
+      "id": "FACE-2-1",
+      "source": "FACE_VERIFIED_ONLY",
+      "orderId": "SEC-002",
+      "personId": "PERSON-2-1",
+      "pointId": "P01",
+      "occurredAt": "2026-11-08 10:22:00"
+    },
+    {
+      "id": "FACE-3-1",
+      "source": "FACE_VERIFIED_ONLY",
+      "orderId": "SEC-003",
+      "personId": "PERSON-3-1",
+      "pointId": "P01",
+      "occurredAt": "2026-11-08 10:23:00"
+    },
+    {
+      "id": "FACE-4-1",
+      "source": "FACE_VERIFIED_ONLY",
+      "orderId": "SEC-004",
+      "personId": "PERSON-4-1",
+      "pointId": "P02",
+      "occurredAt": "2026-11-08 10:24:00"
+    },
+    {
+      "id": "FACE-5-1",
+      "source": "FACE_VERIFIED_ONLY",
+      "orderId": "SEC-005",
+      "personId": "PERSON-5-1",
+      "pointId": "P99",
+      "occurredAt": "2026-11-08 10:25:00"
+    }
+  ]
+}

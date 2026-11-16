@@ -1,0 +1,2150 @@
+{
+  "canteens": [
+    {
+      "id": "CT-A",
+      "name": "一食堂",
+      "meals": [
+        "早餐",
+        "午餐",
+        "晚餐"
+      ]
+    },
+    {
+      "id": "CT-B",
+      "name": "二食堂",
+      "meals": [
+        "午餐",
+        "晚餐"
+      ]
+    },
+    {
+      "id": "CT-C",
+      "name": "小食堂",
+      "meals": [
+        "午餐"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "id": "EMP-YD1061",
+      "name": "李静",
+      "dept": "行政部",
+      "personStatus": "在职",
+      "balanceCents": 14640,
+      "consumeStatus": "可消费",
+      "consumeReason": "在职且余额消费未停止",
+      "benefitStatus": "已有入账流水"
+    },
+    {
+      "id": "EMP-YD2044",
+      "name": "周明",
+      "dept": "生产一部",
+      "personStatus": "在职",
+      "balanceCents": 3000,
+      "consumeStatus": "可消费",
+      "consumeReason": "在职且余额消费未停止",
+      "benefitStatus": "本受益月合法应充 0 元"
+    },
+    {
+      "id": "EMP-YD2088",
+      "name": "陈安",
+      "dept": "生产一部",
+      "personStatus": "在职",
+      "balanceCents": 2620,
+      "consumeStatus": "可消费",
+      "consumeReason": "在职且余额消费未停止",
+      "benefitStatus": "月中首充已形成入账流水"
+    },
+    {
+      "id": "EMP-YD3012",
+      "name": "赵凯",
+      "dept": "内保班",
+      "personStatus": "在职",
+      "balanceCents": 0,
+      "consumeStatus": "可消费",
+      "consumeReason": "账户已建立；本月充值待核算",
+      "benefitStatus": "内保按有效排班核算，单价未配置"
+    },
+    {
+      "id": "EMP-YD3013",
+      "name": "钱缺班",
+      "dept": "内保班",
+      "personStatus": "在职",
+      "balanceCents": 0,
+      "consumeStatus": "可消费",
+      "consumeReason": "账户已建立；本月充值待核算",
+      "benefitStatus": "缺少当月有效排班"
+    },
+    {
+      "id": "EMP-YD0771",
+      "name": "孙启明",
+      "dept": "质量管理部",
+      "personStatus": "已离职",
+      "balanceCents": 4250,
+      "consumeStatus": "已停止余额消费",
+      "consumeReason": "人员离职已正式生效",
+      "benefitStatus": "离职后不产生新的自动充值"
+    },
+    {
+      "id": "EMP-YD0882",
+      "name": "钱待离",
+      "dept": "生产二部",
+      "personStatus": "离职审批中",
+      "balanceCents": 7600,
+      "consumeStatus": "可消费",
+      "consumeReason": "离职尚未正式生效，不停止余额消费",
+      "benefitStatus": "沿用已入账余额"
+    },
+    {
+      "id": "EMP-YD0550",
+      "name": "吴越",
+      "dept": "外保协作",
+      "personStatus": "在职",
+      "balanceCents": 0,
+      "consumeStatus": "无餐补消费资格",
+      "consumeReason": "外保不进入 F08 自动充值",
+      "benefitStatus": "不适用"
+    },
+    {
+      "id": "EMP-YD3301",
+      "name": "郑待核",
+      "dept": "生产二部",
+      "personStatus": "在职",
+      "balanceCents": 0,
+      "consumeStatus": "可消费",
+      "consumeReason": "账户已建立；本月充值待核算",
+      "benefitStatus": "适用扣减规则未配置"
+    },
+    {
+      "id": "EMP-YD3302",
+      "name": "王失败",
+      "dept": "生产一部",
+      "personStatus": "在职",
+      "balanceCents": 200,
+      "consumeStatus": "可消费",
+      "consumeReason": "在职且余额消费未停止",
+      "benefitStatus": "本月入账回执未成功"
+    },
+    {
+      "id": "EMP-YD3303",
+      "name": "孙未知",
+      "dept": "行政部",
+      "personStatus": "在职",
+      "balanceCents": 1500,
+      "consumeStatus": "可消费",
+      "consumeReason": "在职且余额消费未停止",
+      "benefitStatus": "本月入账结果待核实"
+    },
+    {
+      "id": "EMP-YD4100",
+      "name": "王班",
+      "dept": "生产一部",
+      "personStatus": "在职",
+      "balanceCents": 1000,
+      "consumeStatus": "可消费",
+      "consumeReason": "在职且余额消费未停止",
+      "benefitStatus": "账户已建立；指定持券账号另见餐券"
+    },
+    {
+      "id": "EMP-YD9901",
+      "name": "郑越",
+      "dept": "财务部",
+      "personStatus": "在职",
+      "balanceCents": 12000,
+      "consumeStatus": "可消费",
+      "consumeReason": "在职且余额消费未停止",
+      "benefitStatus": "不在当前默认账户范围"
+    }
+  ],
+  "ledgers": [
+    {
+      "id": "CR-LED-1061",
+      "accountId": "EMP-YD1061",
+      "type": "自动充值",
+      "direction": "增加",
+      "amountCents": 17640,
+      "beforeCents": 0,
+      "afterCents": 17640,
+      "sourceId": "CR-202611-BEGIN",
+      "actor": "自动充值",
+      "at": "2026-11-01 08:00",
+      "reason": "受益月 2026-11 月初入账",
+      "linkPage": "canteen-credits",
+      "linkId": "CR-202611-BEGIN"
+    },
+    {
+      "id": "TX-LED-9001",
+      "accountId": "EMP-YD1061",
+      "type": "消费",
+      "direction": "扣减",
+      "amountCents": 1200,
+      "beforeCents": 17640,
+      "afterCents": 16440,
+      "sourceId": "TX-9001",
+      "actor": "终端核销",
+      "at": "2026-11-03 11:42",
+      "reason": "主交易成功扣减",
+      "linkPage": "canteen-transactions",
+      "linkId": "TX-9001"
+    },
+    {
+      "id": "TX-LED-9004",
+      "accountId": "EMP-YD1061",
+      "type": "消费",
+      "direction": "扣减",
+      "amountCents": 1800,
+      "beforeCents": 16440,
+      "afterCents": 14640,
+      "sourceId": "TX-9004",
+      "actor": "核实入账",
+      "at": "2026-11-11 09:40",
+      "reason": "原消费日 2026-11-09 核实成功，只扣一次",
+      "linkPage": "canteen-transactions",
+      "linkId": "TX-9004"
+    },
+    {
+      "id": "CR-LED-2044",
+      "accountId": "EMP-YD2044",
+      "type": "自动充值",
+      "direction": "增加",
+      "amountCents": 3000,
+      "beforeCents": 0,
+      "afterCents": 3000,
+      "sourceId": "CR-202610-BEGIN",
+      "actor": "自动充值",
+      "at": "2026-10-01 08:00",
+      "reason": "受益月 2026-10 月初入账",
+      "linkPage": "canteen-credits",
+      "linkId": "CR-202610-BEGIN"
+    },
+    {
+      "id": "CR-LED-2088",
+      "accountId": "EMP-YD2088",
+      "type": "自动充值",
+      "direction": "增加",
+      "amountCents": 4120,
+      "beforeCents": 0,
+      "afterCents": 4120,
+      "sourceId": "CR-202611-MID",
+      "actor": "自动充值",
+      "at": "2026-11-06 09:10",
+      "reason": "月中正式入职首充入账",
+      "linkPage": "canteen-credits",
+      "linkId": "CR-202611-MID"
+    },
+    {
+      "id": "TX-LED-9006",
+      "accountId": "EMP-YD2088",
+      "type": "消费",
+      "direction": "扣减",
+      "amountCents": 1500,
+      "beforeCents": 4120,
+      "afterCents": 2620,
+      "sourceId": "TX-9006",
+      "actor": "终端核销",
+      "at": "2026-11-10 12:03",
+      "reason": "同一主交易三次请求只扣一次",
+      "linkPage": "canteen-transactions",
+      "linkId": "TX-9006"
+    },
+    {
+      "id": "CR-LED-0771",
+      "accountId": "EMP-YD0771",
+      "type": "自动充值",
+      "direction": "增加",
+      "amountCents": 4250,
+      "beforeCents": 0,
+      "afterCents": 4250,
+      "sourceId": "CR-202609-BEGIN",
+      "actor": "自动充值",
+      "at": "2026-09-01 08:00",
+      "reason": "离职前入账保留",
+      "linkPage": "",
+      "linkId": ""
+    },
+    {
+      "id": "CR-LED-0882",
+      "accountId": "EMP-YD0882",
+      "type": "自动充值",
+      "direction": "增加",
+      "amountCents": 9600,
+      "beforeCents": 0,
+      "afterCents": 9600,
+      "sourceId": "CR-202610-BEGIN",
+      "actor": "自动充值",
+      "at": "2026-10-01 08:00",
+      "reason": "历史入账",
+      "linkPage": "canteen-credits",
+      "linkId": "CR-202610-BEGIN"
+    },
+    {
+      "id": "TX-LED-9008",
+      "accountId": "EMP-YD0882",
+      "type": "消费",
+      "direction": "扣减",
+      "amountCents": 2000,
+      "beforeCents": 9600,
+      "afterCents": 7600,
+      "sourceId": "TX-9008",
+      "actor": "终端核销",
+      "at": "2026-11-08 12:20",
+      "reason": "现场写价成功",
+      "linkPage": "canteen-transactions",
+      "linkId": "TX-9008"
+    },
+    {
+      "id": "CR-LED-3302",
+      "accountId": "EMP-YD3302",
+      "type": "自动充值",
+      "direction": "增加",
+      "amountCents": 800,
+      "beforeCents": 0,
+      "afterCents": 800,
+      "sourceId": "CR-202609-BEGIN",
+      "actor": "自动充值",
+      "at": "2026-09-01 08:00",
+      "reason": "历史入账；本月失败未叠加",
+      "linkPage": "",
+      "linkId": ""
+    },
+    {
+      "id": "TX-LED-B01",
+      "accountId": "EMP-YD3302",
+      "type": "消费",
+      "direction": "扣减",
+      "amountCents": 600,
+      "beforeCents": 800,
+      "afterCents": 200,
+      "sourceId": "TX-B-01",
+      "actor": "终端核销",
+      "at": "2026-11-02 12:00",
+      "reason": "二食堂已发布快照",
+      "linkPage": "canteen-transactions",
+      "linkId": "TX-B-01"
+    },
+    {
+      "id": "CR-LED-3303",
+      "accountId": "EMP-YD3303",
+      "type": "自动充值",
+      "direction": "增加",
+      "amountCents": 1500,
+      "beforeCents": 0,
+      "afterCents": 1500,
+      "sourceId": "CR-202610-BEGIN",
+      "actor": "自动充值",
+      "at": "2026-10-01 08:00",
+      "reason": "历史入账；本月结果待核实未叠加",
+      "linkPage": "canteen-credits",
+      "linkId": "CR-202610-BEGIN"
+    },
+    {
+      "id": "CR-LED-4100",
+      "accountId": "EMP-YD4100",
+      "type": "自动充值",
+      "direction": "增加",
+      "amountCents": 2000,
+      "beforeCents": 0,
+      "afterCents": 2000,
+      "sourceId": "CR-202610-BEGIN",
+      "actor": "自动充值",
+      "at": "2026-10-01 08:00",
+      "reason": "历史入账",
+      "linkPage": "canteen-credits",
+      "linkId": "CR-202610-BEGIN"
+    },
+    {
+      "id": "TX-LED-9009",
+      "accountId": "EMP-YD4100",
+      "type": "消费",
+      "direction": "扣减",
+      "amountCents": 1000,
+      "beforeCents": 2000,
+      "afterCents": 1000,
+      "sourceId": "TX-9009",
+      "actor": "终端核销",
+      "at": "2026-11-10 11:05",
+      "reason": "前厅固定餐标",
+      "linkPage": "canteen-transactions",
+      "linkId": "TX-9009"
+    }
+  ],
+  "batches": [
+    {
+      "id": "CR-202611-BEGIN",
+      "benefitMonth": "2026-11",
+      "trigger": "月初",
+      "category": "普通员工",
+      "executedAt": "2026-11-01 08:00",
+      "batchResult": "部分异常"
+    },
+    {
+      "id": "CR-202611-MID",
+      "benefitMonth": "2026-11",
+      "trigger": "月中首充",
+      "category": "普通员工",
+      "executedAt": "2026-11-06 09:10",
+      "batchResult": "已执行"
+    },
+    {
+      "id": "CR-202611-SEC",
+      "benefitMonth": "2026-11",
+      "trigger": "月初",
+      "category": "内保",
+      "executedAt": "2026-11-01 08:05",
+      "batchResult": "部分异常"
+    },
+    {
+      "id": "CR-202611-OUT",
+      "benefitMonth": "2026-11",
+      "trigger": "月初",
+      "category": "外保",
+      "executedAt": "2026-11-01 08:06",
+      "batchResult": "已执行"
+    },
+    {
+      "id": "CR-202610-BEGIN",
+      "benefitMonth": "2026-10",
+      "trigger": "月初",
+      "category": "普通员工",
+      "executedAt": "2026-10-01 08:00",
+      "batchResult": "已执行"
+    }
+  ],
+  "batchLines": [
+    {
+      "id": "LN-1061",
+      "batchId": "CR-202611-BEGIN",
+      "accountId": "EMP-YD1061",
+      "result": "已入账",
+      "shouldCents": null,
+      "actualCents": 17640,
+      "basis": "已形成入账流水 CR-LED-1061，适用应出勤已记录。",
+      "ledgerId": "CR-LED-1061",
+      "reason": "已形成可信入账流水",
+      "checkDirection": "核对关联入账流水，已入账人员无需重复发放"
+    },
+    {
+      "id": "LN-2044",
+      "batchId": "CR-202611-BEGIN",
+      "accountId": "EMP-YD2044",
+      "result": "本期应充0元",
+      "shouldCents": 0,
+      "actualCents": 0,
+      "basis": "当月适用应出勤工作日为 0。合法应充为零，不记失败，也不记入账资金。",
+      "ledgerId": "",
+      "reason": "合法应充为零，不是失败",
+      "checkDirection": "核对计算依据，0元无需入账"
+    },
+    {
+      "id": "LN-3301",
+      "batchId": "CR-202611-BEGIN",
+      "accountId": "EMP-YD3301",
+      "result": "待处理",
+      "shouldCents": null,
+      "actualCents": null,
+      "basis": "普通员工适用扣减规则未配置，缺少可核算参数，不计算金额、不入账。",
+      "ledgerId": "",
+      "reason": "适用扣减规则未配置，不能核算",
+      "checkDirection": "核对人员、适用规则及当月有效排班，依据齐全后核算"
+    },
+    {
+      "id": "LN-3302",
+      "batchId": "CR-202611-BEGIN",
+      "accountId": "EMP-YD3302",
+      "result": "入账失败",
+      "shouldCents": null,
+      "actualCents": null,
+      "basis": "入账回执确认未成功，未生成资金流水，不重复发放已成功人员。",
+      "ledgerId": "",
+      "reason": "入账回执确认未成功",
+      "checkDirection": "核对原资金流水，确证未到账后由有权人员到消费者与账户追加调整"
+    },
+    {
+      "id": "LN-3303",
+      "batchId": "CR-202611-BEGIN",
+      "accountId": "EMP-YD3303",
+      "result": "结果待核实",
+      "shouldCents": null,
+      "actualCents": null,
+      "basis": "未取得可信入账回执。不重复入账，本页不能再次发起入账。",
+      "ledgerId": "",
+      "reason": "未取得可信入账回执，需核实，不能再次入账",
+      "checkDirection": "按原请求与幂等业务号核对资金流水，核实前勿重复入账"
+    },
+    {
+      "id": "LN-2088",
+      "batchId": "CR-202611-MID",
+      "accountId": "EMP-YD2088",
+      "result": "已入账",
+      "shouldCents": null,
+      "actualCents": 4120,
+      "basis": "月中正式入职首充已形成入账流水 CR-LED-2088。",
+      "ledgerId": "CR-LED-2088",
+      "reason": "已形成可信入账流水",
+      "checkDirection": "核对关联入账流水，已入账人员无需重复发放"
+    },
+    {
+      "id": "LN-3012",
+      "batchId": "CR-202611-SEC",
+      "accountId": "EMP-YD3012",
+      "result": "待处理",
+      "shouldCents": null,
+      "actualCents": null,
+      "basis": "当月有效排班 18 天。内保单价未配置，应充值额待核算，不入账。",
+      "ledgerId": "",
+      "reason": "内保单价未配置，应充值额待核算",
+      "checkDirection": "核对人员、适用规则及当月有效排班，依据齐全后核算"
+    },
+    {
+      "id": "LN-3013",
+      "batchId": "CR-202611-SEC",
+      "accountId": "EMP-YD3013",
+      "result": "待处理",
+      "shouldCents": null,
+      "actualCents": null,
+      "basis": "缺少当月有效排班，应充值额待核算，不入账。",
+      "ledgerId": "",
+      "reason": "缺少当月有效排班，应充值额待核算",
+      "checkDirection": "核对人员、适用规则及当月有效排班，依据齐全后核算"
+    },
+    {
+      "id": "LN-0550",
+      "batchId": "CR-202611-OUT",
+      "accountId": "EMP-YD0550",
+      "result": "不适用",
+      "shouldCents": null,
+      "actualCents": null,
+      "basis": "外保使用部门券，不进入 F08 自动充值，不计入失败人数。南园午餐不在本批次。",
+      "ledgerId": "",
+      "reason": "外保不进入自动充值，不计入失败",
+      "checkDirection": "核对人员类别与适用资格，不计入失败人数"
+    },
+    {
+      "id": "LN-2044-10",
+      "batchId": "CR-202610-BEGIN",
+      "accountId": "EMP-YD2044",
+      "result": "已入账",
+      "shouldCents": null,
+      "actualCents": 3000,
+      "basis": "受益月 2026-10 已形成入账流水 CR-LED-2044。",
+      "ledgerId": "CR-LED-2044",
+      "reason": "已形成可信入账流水",
+      "checkDirection": "核对关联入账流水，已入账人员无需重复发放"
+    }
+  ],
+  "applications": [
+    {
+      "id": "F10-APP-301",
+      "type": "员工本人申请",
+      "purpose": "员工手工券",
+      "applicant": "李静",
+      "dept": "行政部",
+      "form": "单人",
+      "at": "2026-11-02 09:00",
+      "channel": "FACE",
+      "period": "2026-11-02 至 2026-11-30",
+      "approvals": [
+        {
+          "role": "部门审批",
+          "name": "周审",
+          "result": "已批准",
+          "at": "2026-11-02 10:00",
+          "taskId": "TASK-F10-APP-301-1",
+          "actorId": "ACT-ZHOU",
+          "permission": "DEPARTMENT_APPROVE",
+          "authorized": true
+        }
+      ],
+      "holders": [
+        {
+          "accountId": "EMP-YD1061",
+          "name": "李静",
+          "result": "已发放",
+          "voucherId": "V-301",
+          "at": "2026-11-02 10:05"
+        }
+      ],
+      "approvedUsePersons": null,
+      "totalUses": null
+    },
+    {
+      "id": "F10-APP-302",
+      "type": "部门申请",
+      "purpose": "部门招待",
+      "applicant": "李静",
+      "dept": "行政部",
+      "form": "一单多人逐账号",
+      "at": "2026-11-03 09:00",
+      "channel": "FACE",
+      "period": "2026-11-03 至 2026-11-20",
+      "approvals": [
+        {
+          "role": "部门审批",
+          "name": "周审",
+          "result": "已批准",
+          "at": "2026-11-03 10:00",
+          "taskId": "TASK-F10-APP-302-1",
+          "actorId": "ACT-ZHOU",
+          "permission": "DEPARTMENT_APPROVE",
+          "authorized": true
+        },
+        {
+          "role": "行政复核",
+          "name": "陈核",
+          "result": "已批准",
+          "at": "2026-11-03 11:00",
+          "taskId": "TASK-F10-APP-302-2",
+          "actorId": "ACT-CHEN",
+          "permission": "ADMIN_REVIEW",
+          "authorized": true
+        }
+      ],
+      "holders": [
+        {
+          "accountId": "EMP-YD1061",
+          "name": "李静",
+          "result": "已发放",
+          "voucherId": "V-302A",
+          "at": "2026-11-03 11:05"
+        },
+        {
+          "accountId": "EMP-YD2044",
+          "name": "周明",
+          "result": "已发放",
+          "voucherId": "V-302B",
+          "at": "2026-11-03 11:05"
+        },
+        {
+          "accountId": "EMP-YD2088",
+          "name": "陈安",
+          "result": "发放失败",
+          "voucherId": "",
+          "at": "2026-11-03 11:06"
+        }
+      ],
+      "approvedUsePersons": null,
+      "totalUses": null
+    },
+    {
+      "id": "F10-APP-303",
+      "type": "部门申请",
+      "purpose": "班组共享",
+      "applicant": "王班",
+      "dept": "生产一部",
+      "form": "一账号共享多人",
+      "at": "2026-11-01 09:30",
+      "channel": "QR",
+      "period": "2026-11-01 至 2026-11-30",
+      "approvals": [
+        {
+          "role": "部门审批",
+          "name": "周审",
+          "result": "已批准",
+          "at": "2026-11-01 10:00",
+          "taskId": "TASK-F10-APP-303-1",
+          "actorId": "ACT-ZHOU",
+          "permission": "DEPARTMENT_APPROVE",
+          "authorized": true
+        },
+        {
+          "role": "行政复核",
+          "name": "陈核",
+          "result": "已批准",
+          "at": "2026-11-01 11:00",
+          "taskId": "TASK-F10-APP-303-2",
+          "actorId": "ACT-CHEN",
+          "permission": "ADMIN_REVIEW",
+          "authorized": true
+        }
+      ],
+      "holders": [
+        {
+          "accountId": "EMP-YD4100",
+          "name": "王班",
+          "result": "已发放",
+          "voucherId": "V-SHARE-01",
+          "at": "2026-11-01 11:10"
+        }
+      ],
+      "approvedUsePersons": 5,
+      "totalUses": 10
+    },
+    {
+      "id": "F10-APP-304",
+      "type": "部门申请",
+      "purpose": "部门招待",
+      "applicant": "周明",
+      "dept": "生产一部",
+      "form": "一账号共享多人",
+      "at": "2026-11-04 09:00",
+      "channel": "QR",
+      "period": "2026-11-04 至 2026-11-18",
+      "approvals": [
+        {
+          "role": "部门审批",
+          "name": "周审",
+          "result": "已批准",
+          "at": "2026-11-04 10:00",
+          "taskId": "TASK-F10-APP-304-1",
+          "actorId": "ACT-ZHOU",
+          "permission": "DEPARTMENT_APPROVE",
+          "authorized": true
+        }
+      ],
+      "holders": [],
+      "approvedUsePersons": 3,
+      "totalUses": 6,
+      "legacyApprovalAttempts": [
+        {
+          "role": "行政二审",
+          "name": "周审",
+          "result": "与一审同人，不能复核",
+          "at": "2026-11-04 10:01"
+        }
+      ]
+    },
+    {
+      "id": "F07-APP-401",
+      "type": "有效加班自动",
+      "purpose": "加班餐券",
+      "applicant": "周明",
+      "dept": "生产一部",
+      "form": "单人",
+      "at": "2026-11-05 18:10",
+      "channel": "FACE",
+      "period": "2026-11-05 至 2026-11-06",
+      "approvals": [],
+      "holders": [
+        {
+          "accountId": "EMP-YD2044",
+          "name": "周明",
+          "result": "已发放",
+          "voucherId": "V-401",
+          "at": "2026-11-05 18:10"
+        }
+      ],
+      "approvedUsePersons": null,
+      "totalUses": null,
+      "qualificationValid": true
+    },
+    {
+      "id": "F10-APP-305",
+      "type": "部门申请",
+      "purpose": "部门招待",
+      "applicant": "李静",
+      "dept": "行政部",
+      "form": "单人",
+      "at": "2026-11-06 09:20",
+      "channel": "FACE",
+      "period": "2026-11-06 至 2026-11-12",
+      "approvals": [
+        {
+          "role": "部门审批",
+          "name": "周审",
+          "result": "已批准",
+          "at": "2026-11-06 10:00",
+          "taskId": "TASK-F10-APP-305-1",
+          "actorId": "ACT-ZHOU",
+          "permission": "DEPARTMENT_APPROVE",
+          "authorized": true
+        },
+        {
+          "role": "行政复核",
+          "name": "陈核",
+          "result": "已批准",
+          "at": "2026-11-06 11:00",
+          "taskId": "TASK-F10-APP-305-2",
+          "actorId": "ACT-CHEN",
+          "permission": "ADMIN_REVIEW",
+          "authorized": true
+        }
+      ],
+      "holders": [
+        {
+          "accountId": "EMP-YD3303",
+          "name": "孙未知",
+          "result": "结果待核实",
+          "voucherId": "",
+          "at": "2026-11-06 11:20"
+        }
+      ],
+      "approvedUsePersons": null,
+      "totalUses": null
+    },
+    {
+      "type": "部门申请",
+      "purpose": "部门招待",
+      "applicant": "周明",
+      "dept": "生产一部",
+      "form": "一单多人逐账号",
+      "at": "2026-11-07 09:00",
+      "channel": "FACE",
+      "period": "2026-11-07 至 2026-11-20",
+      "approvedUsePersons": null,
+      "totalUses": null,
+      "id": "F10-APP-306",
+      "approvals": [
+        {
+          "taskId": "TASK-F10-306-1",
+          "actorId": "ACT-ZHOU",
+          "name": "周审",
+          "role": "部门审批",
+          "permission": "DEPARTMENT_APPROVE",
+          "authorized": true,
+          "result": "已批准",
+          "at": "2026-11-07 10:00"
+        },
+        {
+          "taskId": "TASK-F10-306-2",
+          "actorId": "ACT-ZHOU",
+          "name": "周审",
+          "role": "行政复核",
+          "permission": "ADMIN_REVIEW",
+          "authorized": true,
+          "result": "已批准",
+          "at": "2026-11-07 11:00"
+        }
+      ],
+      "holders": [
+        {
+          "accountId": "EMP-YD2044",
+          "name": "周明",
+          "result": "发放失败",
+          "voucherId": "",
+          "at": "2026-11-07 11:05",
+          "reason": "发放服务明确返回失败"
+        },
+        {
+          "accountId": "EMP-YD2088",
+          "name": "陈安",
+          "result": "发放失败",
+          "voucherId": "",
+          "at": "2026-11-07 11:05",
+          "reason": "发放服务明确返回失败"
+        }
+      ]
+    },
+    {
+      "type": "部门申请",
+      "purpose": "部门招待",
+      "applicant": "周明",
+      "dept": "生产一部",
+      "form": "一单多人逐账号",
+      "at": "2026-11-07 09:00",
+      "channel": "FACE",
+      "period": "2026-11-07 至 2026-11-20",
+      "approvedUsePersons": null,
+      "totalUses": null,
+      "id": "F10-APP-307",
+      "approvals": [],
+      "holders": []
+    },
+    {
+      "type": "部门申请",
+      "purpose": "部门招待",
+      "applicant": "周明",
+      "dept": "生产一部",
+      "form": "一单多人逐账号",
+      "at": "2026-11-07 09:00",
+      "channel": "FACE",
+      "period": "2026-11-07 至 2026-11-20",
+      "approvedUsePersons": null,
+      "totalUses": null,
+      "id": "F10-APP-308",
+      "approvals": [
+        {
+          "taskId": "TASK-F10-308-1",
+          "actorId": "ACT-ZHOU",
+          "name": "周审",
+          "role": "部门审批",
+          "permission": "DEPARTMENT_APPROVE",
+          "authorized": true,
+          "result": "已驳回",
+          "at": "2026-11-07 10:00"
+        }
+      ],
+      "holders": []
+    }
+  ],
+  "vouchers": [
+    {
+      "id": "V-301",
+      "applicationId": "F10-APP-301",
+      "purpose": "员工手工券",
+      "accountId": "EMP-YD1061",
+      "holder": "李静",
+      "form": "单人",
+      "channel": "FACE",
+      "period": "2026-11-02 至 2026-11-30",
+      "totalUses": 1,
+      "successfulUses": 0,
+      "useStatus": "未使用",
+      "issuedAt": "2026-11-02 10:05",
+      "validFrom": "2026-11-02",
+      "validTo": "2026-11-30"
+    },
+    {
+      "id": "V-302A",
+      "applicationId": "F10-APP-302",
+      "purpose": "部门招待",
+      "accountId": "EMP-YD1061",
+      "holder": "李静",
+      "form": "单人",
+      "channel": "FACE",
+      "period": "2026-11-03 至 2026-11-20",
+      "totalUses": 1,
+      "successfulUses": 0,
+      "useStatus": "未使用",
+      "issuedAt": "2026-11-03 11:05",
+      "validFrom": "2026-11-03",
+      "validTo": "2026-11-20"
+    },
+    {
+      "id": "V-302B",
+      "applicationId": "F10-APP-302",
+      "purpose": "部门招待",
+      "accountId": "EMP-YD2044",
+      "holder": "周明",
+      "form": "单人",
+      "channel": "FACE",
+      "period": "2026-11-03 至 2026-11-20",
+      "totalUses": 1,
+      "successfulUses": 0,
+      "useStatus": "未使用",
+      "issuedAt": "2026-11-03 11:05",
+      "validFrom": "2026-11-03",
+      "validTo": "2026-11-20"
+    },
+    {
+      "id": "V-SHARE-01",
+      "applicationId": "F10-APP-303",
+      "purpose": "班组共享",
+      "accountId": "EMP-YD4100",
+      "holder": "王班",
+      "form": "共享",
+      "channel": "QR",
+      "period": "2026-11-01 至 2026-11-30",
+      "totalUses": 10,
+      "successfulUses": 4,
+      "useStatus": "部分使用",
+      "issuedAt": "2026-11-01 11:10",
+      "approvedUsePersons": 5,
+      "validFrom": "2026-11-01",
+      "validTo": "2026-11-30"
+    },
+    {
+      "id": "V-401",
+      "applicationId": "F07-APP-401",
+      "purpose": "加班餐券",
+      "accountId": "EMP-YD2044",
+      "holder": "周明",
+      "form": "单人",
+      "channel": "FACE",
+      "period": "2026-11-05 至 2026-11-06",
+      "totalUses": 1,
+      "successfulUses": 0,
+      "useStatus": "已过期",
+      "issuedAt": "2026-11-05 18:10",
+      "validFrom": "2026-11-05",
+      "validTo": "2026-11-06"
+    }
+  ],
+  "voucherEvents": [
+    {
+      "id": "TX-SHARE-01",
+      "voucherId": "V-SHARE-01",
+      "result": "成功",
+      "reason": "指定持券账号核销成功",
+      "beforeUses": 7,
+      "afterUses": 6,
+      "at": "2026-11-10 12:40"
+    },
+    {
+      "id": "TX-SHARE-REJ",
+      "voucherId": "V-SHARE-01",
+      "result": "失败",
+      "reason": "渠道不匹配",
+      "beforeUses": 6,
+      "afterUses": 6,
+      "at": "2026-11-10 13:10"
+    },
+    {
+      "id": "TX-SHARE-UNK",
+      "voucherId": "V-SHARE-01",
+      "result": "UNKNOWN",
+      "reason": "核销结果待核实",
+      "beforeUses": 6,
+      "afterUses": 6,
+      "at": "2026-11-12 12:15"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "D-A-01",
+      "canteenId": "CT-A",
+      "name": "红烧肉",
+      "category": "热菜",
+      "priceMode": "固定单品价",
+      "priceCents": 1200,
+      "status": "上架",
+      "imageNote": "",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 09:00"
+    },
+    {
+      "id": "D-A-02",
+      "canteenId": "CT-A",
+      "name": "清炒时蔬",
+      "category": "素菜",
+      "priceMode": "固定单品价",
+      "priceCents": 600,
+      "status": "上架",
+      "imageNote": "",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 09:00"
+    },
+    {
+      "id": "D-A-03",
+      "canteenId": "CT-A",
+      "name": "例汤",
+      "category": "汤品",
+      "priceMode": "固定单品价",
+      "priceCents": 300,
+      "status": "下架",
+      "imageNote": "",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 09:00"
+    },
+    {
+      "id": "D-A-04",
+      "canteenId": "CT-A",
+      "name": "时价小炒",
+      "category": "热菜",
+      "priceMode": "现场计价",
+      "priceCents": null,
+      "status": "上架",
+      "imageNote": "",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 09:00"
+    },
+    {
+      "id": "D-A-05",
+      "canteenId": "CT-A",
+      "name": "历史蒸蛋",
+      "category": "热菜",
+      "priceMode": "固定单品价",
+      "priceCents": 400,
+      "status": "上架",
+      "imageNote": "",
+      "remark": "仅历史菜谱引用",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-10-20 09:00"
+    },
+    {
+      "id": "D-A-08",
+      "canteenId": "CT-A",
+      "name": "蒜蓉青菜",
+      "category": "素菜",
+      "priceMode": "固定单品价",
+      "priceCents": 500,
+      "status": "上架",
+      "imageNote": "",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-08 09:00"
+    },
+    {
+      "id": "D-B-01",
+      "canteenId": "CT-B",
+      "name": "二食堂牛肉面",
+      "category": "主食",
+      "priceMode": "固定单品价",
+      "priceCents": 800,
+      "status": "上架",
+      "imageNote": "",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 09:00"
+    },
+    {
+      "id": "D-C-01",
+      "canteenId": "CT-C",
+      "name": "小食堂套饭",
+      "category": "主食",
+      "priceMode": "固定单品价",
+      "priceCents": 900,
+      "status": "上架",
+      "imageNote": "",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 09:00"
+    }
+  ],
+  "combos": [
+    {
+      "id": "SET-A-01",
+      "canteenId": "CT-A",
+      "name": "工作套餐",
+      "priceMode": "固定单品价",
+      "priceCents": 1600,
+      "status": "上架",
+      "items": [
+        {
+          "dishId": "D-A-01",
+          "qty": 1
+        },
+        {
+          "dishId": "D-A-02",
+          "qty": 1
+        }
+      ],
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 09:30"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "SNAP-A-20261103-V1",
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-03",
+      "versionNo": 1,
+      "currentEffective": true,
+      "releaseId": "REL-0",
+      "meals": {
+        "早餐": [],
+        "午餐": [
+          {
+            "kind": "dish",
+            "refId": "D-A-01",
+            "name": "红烧肉",
+            "priceMode": "固定单品价",
+            "priceCents": 1200,
+            "composition": []
+          }
+        ],
+        "晚餐": []
+      }
+    },
+    {
+      "id": "SNAP-A-20261104-V1",
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-04",
+      "versionNo": 1,
+      "currentEffective": true,
+      "releaseId": "REL-0",
+      "meals": {
+        "早餐": [],
+        "午餐": [
+          {
+            "kind": "dish",
+            "refId": "D-A-05",
+            "name": "历史蒸蛋",
+            "priceMode": "固定单品价",
+            "priceCents": 400,
+            "composition": []
+          }
+        ],
+        "晚餐": []
+      }
+    },
+    {
+      "id": "SNAP-A-20261109-V1",
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-09",
+      "versionNo": 1,
+      "currentEffective": true,
+      "releaseId": "REL-0",
+      "meals": {
+        "早餐": [],
+        "午餐": [
+          {
+            "kind": "dish",
+            "refId": "D-A-01",
+            "name": "红烧肉",
+            "priceMode": "固定单品价",
+            "priceCents": 1200,
+            "composition": []
+          },
+          {
+            "kind": "combo",
+            "refId": "SET-A-01",
+            "name": "工作套餐",
+            "priceMode": "固定单品价",
+            "priceCents": 1600,
+            "composition": [
+              {
+                "dishId": "D-A-01",
+                "name": "红烧肉",
+                "qty": 1,
+                "priceCents": 1200
+              },
+              {
+                "dishId": "D-A-02",
+                "name": "清炒时蔬",
+                "qty": 1,
+                "priceCents": 600
+              }
+            ]
+          }
+        ],
+        "晚餐": []
+      }
+    },
+    {
+      "id": "SNAP-A-20261110-V1",
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-10",
+      "versionNo": 1,
+      "currentEffective": true,
+      "releaseId": "REL-0",
+      "meals": {
+        "早餐": [],
+        "午餐": [
+          {
+            "kind": "dish",
+            "refId": "D-A-02",
+            "name": "清炒时蔬",
+            "priceMode": "固定单品价",
+            "priceCents": 600,
+            "composition": []
+          }
+        ],
+        "晚餐": []
+      }
+    },
+    {
+      "id": "SNAP-A-20261111-V1",
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-11",
+      "versionNo": 1,
+      "currentEffective": true,
+      "releaseId": "REL-0",
+      "meals": {
+        "早餐": [],
+        "午餐": [
+          {
+            "kind": "dish",
+            "refId": "D-A-01",
+            "name": "红烧肉",
+            "priceMode": "固定单品价",
+            "priceCents": 1200,
+            "composition": []
+          }
+        ],
+        "晚餐": [
+          {
+            "kind": "dish",
+            "refId": "D-A-04",
+            "name": "时价小炒",
+            "priceMode": "现场计价",
+            "priceCents": null,
+            "composition": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "SNAP-A-20261112-V1",
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-12",
+      "versionNo": 1,
+      "currentEffective": true,
+      "releaseId": "REL-0",
+      "meals": {
+        "早餐": [],
+        "午餐": [
+          {
+            "kind": "dish",
+            "refId": "D-A-08",
+            "name": "蒜蓉青菜",
+            "priceMode": "固定单品价",
+            "priceCents": 500,
+            "composition": []
+          }
+        ],
+        "晚餐": []
+      }
+    },
+    {
+      "id": "SNAP-A-20261113-V1",
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-13",
+      "versionNo": 1,
+      "currentEffective": true,
+      "releaseId": "REL-0",
+      "meals": {
+        "早餐": [],
+        "午餐": [
+          {
+            "kind": "dish",
+            "refId": "D-A-08",
+            "name": "蒜蓉青菜",
+            "priceMode": "固定单品价",
+            "priceCents": 500,
+            "composition": []
+          }
+        ],
+        "晚餐": []
+      }
+    },
+    {
+      "id": "SNAP-A-20261116-V1",
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-16",
+      "versionNo": 1,
+      "currentEffective": true,
+      "releaseId": "REL-0",
+      "meals": {
+        "早餐": [],
+        "午餐": [
+          {
+            "kind": "dish",
+            "refId": "D-A-01",
+            "name": "红烧肉",
+            "priceMode": "固定单品价",
+            "priceCents": 1200,
+            "composition": []
+          }
+        ],
+        "晚餐": []
+      }
+    },
+    {
+      "id": "SNAP-B-20261102-V1",
+      "canteenId": "CT-B",
+      "menuDate": "2026-11-02",
+      "versionNo": 1,
+      "currentEffective": true,
+      "releaseId": "REL-0",
+      "meals": {
+        "午餐": [
+          {
+            "kind": "dish",
+            "refId": "D-B-01",
+            "name": "二食堂牛肉面",
+            "priceMode": "固定单品价",
+            "priceCents": 800,
+            "composition": []
+          }
+        ],
+        "晚餐": []
+      }
+    }
+  ],
+  "drafts": [
+    {
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-11",
+      "meal": "午餐",
+      "items": [
+        {
+          "kind": "dish",
+          "refId": "D-A-02"
+        }
+      ],
+      "actor": "周衡",
+      "at": "2026-11-12 16:00"
+    },
+    {
+      "canteenId": "CT-A",
+      "menuDate": "2026-11-14",
+      "meal": "午餐",
+      "items": [
+        {
+          "kind": "dish",
+          "refId": "D-A-02"
+        }
+      ],
+      "actor": "周衡",
+      "at": "2026-11-12 16:10"
+    }
+  ],
+  "releases": [
+    {
+      "id": "REL-0",
+      "canteenId": "CT-A",
+      "dates": [
+        "2026-11-09",
+        "2026-11-15"
+      ],
+      "actor": "周衡",
+      "at": "2026-11-08 18:00",
+      "affected": [
+        "初始已发布版本"
+      ]
+    }
+  ],
+  "stalls": [
+    {
+      "id": "ST-A1",
+      "canteenId": "CT-A",
+      "name": "一楼热菜",
+      "managementState": "启用",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 08:00"
+    },
+    {
+      "id": "ST-A2",
+      "canteenId": "CT-A",
+      "name": "一楼面点",
+      "managementState": "启用",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 08:00"
+    },
+    {
+      "id": "ST-A3",
+      "canteenId": "CT-A",
+      "name": "停用窗口",
+      "managementState": "停用",
+      "remark": "停用后不级联停终端",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-11 08:00"
+    },
+    {
+      "id": "ST-B1",
+      "canteenId": "CT-B",
+      "name": "二食堂面档",
+      "managementState": "启用",
+      "remark": "",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-01 08:00"
+    }
+  ],
+  "terminals": [
+    {
+      "id": "T-A1",
+      "name": "一食堂热菜1",
+      "canteenId": "CT-A",
+      "scenario": "档口",
+      "stallId": "ST-A1",
+      "managementState": "启用",
+      "communication": "在线",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-02 08:00",
+      "legacySettings": {
+        "allowedModes": [
+          "菜品点选",
+          "现场写价"
+        ],
+        "currentMode": "菜品点选",
+        "grants": [
+          {
+            "operatorId": "OP-ZHOU",
+            "name": "周衡",
+            "modes": [
+              "菜品点选",
+              "现场写价"
+            ]
+          },
+          {
+            "operatorId": "OP-LIN",
+            "name": "林场",
+            "modes": [
+              "菜品点选"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "T-A2",
+      "name": "一食堂热菜2",
+      "canteenId": "CT-A",
+      "scenario": "档口",
+      "stallId": "ST-A1",
+      "managementState": "启用",
+      "communication": "离线",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-02 08:00",
+      "legacySettings": {
+        "allowedModes": [
+          "菜品点选"
+        ],
+        "currentMode": "",
+        "grants": [
+          {
+            "operatorId": "OP-ZHOU",
+            "name": "周衡",
+            "modes": [
+              "菜品点选"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "T-A3",
+      "name": "一食堂前厅",
+      "canteenId": "CT-A",
+      "scenario": "前厅",
+      "stallId": "",
+      "managementState": "启用",
+      "communication": "未知",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-02 08:00",
+      "legacySettings": {
+        "allowedModes": [
+          "固定餐标"
+        ],
+        "currentMode": "固定餐标",
+        "grants": [
+          {
+            "operatorId": "OP-ZHOU",
+            "name": "周衡",
+            "modes": [
+              "固定餐标"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "T-A4",
+      "name": "一食堂停用终端",
+      "canteenId": "CT-A",
+      "scenario": "档口",
+      "stallId": "ST-A2",
+      "managementState": "停用",
+      "communication": "离线",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-09 08:00",
+      "legacySettings": {
+        "allowedModes": [
+          "菜品点选"
+        ],
+        "currentMode": "",
+        "grants": [
+          {
+            "operatorId": "OP-ZHOU",
+            "name": "周衡",
+            "modes": [
+              "菜品点选"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "T-A5",
+      "name": "停用档口终端",
+      "canteenId": "CT-A",
+      "scenario": "档口",
+      "stallId": "ST-A3",
+      "managementState": "启用",
+      "communication": "在线",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-02 08:00",
+      "legacySettings": {
+        "allowedModes": [
+          "菜品点选"
+        ],
+        "currentMode": "菜品点选",
+        "grants": [
+          {
+            "operatorId": "OP-ZHOU",
+            "name": "周衡",
+            "modes": [
+              "菜品点选"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "T-A6",
+      "name": "待绑定终端",
+      "canteenId": "CT-A",
+      "scenario": "",
+      "stallId": "",
+      "managementState": "启用",
+      "communication": "未知",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-02 08:00",
+      "legacySettings": {
+        "allowedModes": [],
+        "currentMode": "",
+        "grants": []
+      }
+    },
+    {
+      "id": "T-B1",
+      "name": "二食堂面档终端",
+      "canteenId": "CT-B",
+      "scenario": "档口",
+      "stallId": "ST-B1",
+      "managementState": "启用",
+      "communication": "在线",
+      "updatedBy": "周衡",
+      "updatedAt": "2026-11-02 08:00",
+      "legacySettings": {
+        "allowedModes": [
+          "菜品点选"
+        ],
+        "currentMode": "菜品点选",
+        "grants": [
+          {
+            "operatorId": "OP-ZHOU",
+            "name": "周衡",
+            "modes": [
+              "菜品点选"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "terminalHistory": [
+    {
+      "id": "TH-A1-1",
+      "terminalId": "T-A1",
+      "at": "2026-11-02 08:00",
+      "actor": "周衡",
+      "legacyText": "配置允许模式：菜品点选、现场写价",
+      "text": "登记终端归属及绑定关系"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TX-9001",
+      "consumeAt": "2026-11-03 11:42",
+      "consumeDate": "2026-11-03",
+      "accountId": "EMP-YD1061",
+      "accountName": "李静",
+      "canteenId": "CT-A",
+      "stallId": "ST-A1",
+      "terminalId": "T-A1",
+      "terminalName": "一食堂热菜1",
+      "mode": "菜品点选",
+      "channel": "余额",
+      "requestCents": 1200,
+      "amountCents": 1200,
+      "result": "成功",
+      "reason": "已发布价格快照核销成功",
+      "menuSnapshotId": "SNAP-A-20261103-V1",
+      "meal": "午餐",
+      "voucherId": "",
+      "ledgerId": "TX-LED-9001",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "attempts": [
+        {
+          "id": "RQ-9001-1",
+          "at": "2026-11-03 11:42",
+          "outcome": "成功",
+          "idem": "IDEM-9001"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-03 11:42",
+          "result": "成功",
+          "basis": "终端回执与余额流水一致"
+        }
+      ]
+    },
+    {
+      "id": "TX-9002",
+      "consumeAt": "2026-11-04 11:20",
+      "consumeDate": "2026-11-04",
+      "accountId": "EMP-YD2044",
+      "accountName": "周明",
+      "canteenId": "CT-A",
+      "stallId": "ST-A1",
+      "terminalId": "T-A1",
+      "terminalName": "一食堂热菜1",
+      "mode": "菜品点选",
+      "channel": "余额",
+      "requestCents": 5000,
+      "amountCents": null,
+      "result": "失败",
+      "reason": "账户可用余额不足",
+      "menuSnapshotId": "SNAP-A-20261104-V1",
+      "meal": "午餐",
+      "voucherId": "",
+      "ledgerId": "",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "attempts": [
+        {
+          "id": "RQ-9002-1",
+          "at": "2026-11-04 11:20",
+          "outcome": "失败",
+          "idem": "IDEM-9002"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-04 11:20",
+          "result": "失败",
+          "basis": "可用余额 30.00，请求 50.00，未扣款"
+        }
+      ]
+    },
+    {
+      "id": "TX-9003",
+      "consumeAt": "2026-11-05 12:05",
+      "consumeDate": "2026-11-05",
+      "accountId": "EMP-YD1061",
+      "accountName": "李静",
+      "canteenId": "CT-A",
+      "stallId": "ST-A1",
+      "terminalId": "T-A1",
+      "terminalName": "一食堂热菜1",
+      "mode": "菜品点选",
+      "channel": "余额",
+      "requestCents": 1500,
+      "amountCents": null,
+      "result": "UNKNOWN",
+      "reason": "终端请求超时，无法证实核销结果",
+      "menuSnapshotId": "",
+      "meal": "午餐",
+      "voucherId": "",
+      "ledgerId": "",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "attempts": [
+        {
+          "id": "RQ-9003-1",
+          "at": "2026-11-05 12:05",
+          "outcome": "超时",
+          "idem": "IDEM-9003"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-05 12:05",
+          "result": "UNKNOWN",
+          "basis": "超时，未取得可信扣款证据"
+        }
+      ]
+    },
+    {
+      "id": "TX-9004",
+      "consumeAt": "2026-11-09 11:20",
+      "consumeDate": "2026-11-09",
+      "accountId": "EMP-YD1061",
+      "accountName": "李静",
+      "canteenId": "CT-A",
+      "stallId": "ST-A1",
+      "terminalId": "T-A1",
+      "terminalName": "一食堂热菜1",
+      "mode": "菜品点选",
+      "channel": "余额",
+      "requestCents": 1800,
+      "amountCents": 1800,
+      "result": "成功",
+      "reason": "原 UNKNOWN 经回执核实成功",
+      "menuSnapshotId": "SNAP-A-20261109-V1",
+      "meal": "午餐",
+      "voucherId": "",
+      "ledgerId": "TX-LED-9004",
+      "verifiedOn": "2026-11-11",
+      "verifiedAt": "2026-11-11 09:40",
+      "attempts": [
+        {
+          "id": "RQ-9004-1",
+          "at": "2026-11-09 11:20",
+          "outcome": "超时",
+          "idem": "IDEM-9004"
+        },
+        {
+          "id": "RQ-9004-2",
+          "at": "2026-11-11 09:40",
+          "outcome": "核实成功",
+          "idem": "IDEM-9004"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-09 11:20",
+          "result": "UNKNOWN",
+          "basis": "终端请求超时"
+        },
+        {
+          "at": "2026-11-11 09:40",
+          "result": "成功",
+          "basis": "回执 POS-RCPT-9004；同一主交易只扣一次"
+        }
+      ]
+    },
+    {
+      "id": "TX-9005",
+      "consumeAt": "2026-11-06 12:12",
+      "consumeDate": "2026-11-06",
+      "accountId": "EMP-YD2044",
+      "accountName": "周明",
+      "canteenId": "CT-A",
+      "stallId": "ST-A1",
+      "terminalId": "T-A1",
+      "terminalName": "一食堂热菜1",
+      "mode": "菜品点选",
+      "channel": "余额",
+      "requestCents": 800,
+      "amountCents": null,
+      "result": "失败",
+      "reason": "核实为核销未完成",
+      "menuSnapshotId": "",
+      "meal": "午餐",
+      "voucherId": "",
+      "ledgerId": "",
+      "verifiedOn": "2026-11-07",
+      "verifiedAt": "2026-11-07 09:00",
+      "attempts": [
+        {
+          "id": "RQ-9005-1",
+          "at": "2026-11-06 12:12",
+          "outcome": "超时",
+          "idem": "IDEM-9005"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-06 12:12",
+          "result": "UNKNOWN",
+          "basis": "超时"
+        },
+        {
+          "at": "2026-11-07 09:00",
+          "result": "失败",
+          "basis": "核实未完成，未新建消费、未扣款"
+        }
+      ]
+    },
+    {
+      "id": "TX-9006",
+      "consumeAt": "2026-11-10 12:01",
+      "consumeDate": "2026-11-10",
+      "accountId": "EMP-YD2088",
+      "accountName": "陈安",
+      "canteenId": "CT-A",
+      "stallId": "ST-A1",
+      "terminalId": "T-A1",
+      "terminalName": "一食堂热菜1",
+      "mode": "菜品点选",
+      "channel": "余额",
+      "requestCents": 1500,
+      "amountCents": 1500,
+      "result": "成功",
+      "reason": "三次请求同一幂等键，只扣一次",
+      "menuSnapshotId": "SNAP-A-20261110-V1",
+      "meal": "午餐",
+      "voucherId": "",
+      "ledgerId": "TX-LED-9006",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "lines": [
+        {
+          "name": "清炒时蔬",
+          "cents": 600
+        },
+        {
+          "name": "加价配菜",
+          "cents": 900
+        }
+      ],
+      "attempts": [
+        {
+          "id": "RQ-9006-1",
+          "at": "2026-11-10 12:01",
+          "outcome": "超时",
+          "idem": "IDEM-9006"
+        },
+        {
+          "id": "RQ-9006-2",
+          "at": "2026-11-10 12:02",
+          "outcome": "重复请求",
+          "idem": "IDEM-9006"
+        },
+        {
+          "id": "RQ-9006-3",
+          "at": "2026-11-10 12:03",
+          "outcome": "成功",
+          "idem": "IDEM-9006"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-10 12:03",
+          "result": "成功",
+          "basis": "同一主交易只形成一条扣款流水"
+        }
+      ]
+    },
+    {
+      "id": "TX-SHARE-01",
+      "consumeAt": "2026-11-10 12:40",
+      "consumeDate": "2026-11-10",
+      "accountId": "EMP-YD4100",
+      "accountName": "王班",
+      "canteenId": "CT-A",
+      "stallId": "ST-A1",
+      "terminalId": "T-A1",
+      "terminalName": "一食堂热菜1",
+      "mode": "菜品点选",
+      "channel": "QR",
+      "requestCents": null,
+      "amountCents": null,
+      "result": "成功",
+      "reason": "共享整券确认成功一次",
+      "menuSnapshotId": "",
+      "meal": "午餐",
+      "voucherId": "V-SHARE-01",
+      "ledgerId": "",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "useBefore": 7,
+      "useAfter": 6,
+      "attempts": [
+        {
+          "id": "RQ-SHARE-1",
+          "at": "2026-11-10 12:40",
+          "outcome": "成功",
+          "idem": "IDEM-SHARE-01"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-10 12:40",
+          "result": "成功",
+          "basis": "指定持券账号王班；整券次数 7 减至 6；无实际就餐人清单"
+        }
+      ]
+    },
+    {
+      "id": "TX-SHARE-REJ",
+      "consumeAt": "2026-11-10 13:10",
+      "consumeDate": "2026-11-10",
+      "accountId": "EMP-YD4100",
+      "accountName": "王班",
+      "canteenId": "CT-A",
+      "stallId": "ST-A1",
+      "terminalId": "T-A1",
+      "terminalName": "一食堂热菜1",
+      "mode": "菜品点选",
+      "channel": "FACE",
+      "requestCents": null,
+      "amountCents": null,
+      "result": "失败",
+      "reason": "渠道不匹配",
+      "menuSnapshotId": "",
+      "meal": "午餐",
+      "voucherId": "V-SHARE-01",
+      "ledgerId": "",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "useBefore": 6,
+      "useAfter": 6,
+      "attempts": [
+        {
+          "id": "RQ-SHARE-REJ",
+          "at": "2026-11-10 13:10",
+          "outcome": "失败",
+          "idem": "IDEM-SHARE-REJ"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-10 13:10",
+          "result": "失败",
+          "basis": "锁定渠道为 QR，本次 FACE 被拒绝，次数未变"
+        }
+      ]
+    },
+    {
+      "id": "TX-SHARE-UNK",
+      "consumeAt": "2026-11-12 12:15",
+      "consumeDate": "2026-11-12",
+      "accountId": "EMP-YD4100",
+      "accountName": "王班",
+      "canteenId": "CT-A",
+      "stallId": "ST-A1",
+      "terminalId": "T-A2",
+      "terminalName": "一食堂热菜2",
+      "mode": "菜品点选",
+      "channel": "QR",
+      "requestCents": null,
+      "amountCents": null,
+      "result": "UNKNOWN",
+      "reason": "核销结果待核实",
+      "menuSnapshotId": "",
+      "meal": "午餐",
+      "voucherId": "V-SHARE-01",
+      "ledgerId": "",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "useBefore": 6,
+      "useAfter": 6,
+      "attempts": [
+        {
+          "id": "RQ-SHARE-UNK",
+          "at": "2026-11-12 12:15",
+          "outcome": "超时",
+          "idem": "IDEM-SHARE-UNK"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-12 12:15",
+          "result": "UNKNOWN",
+          "basis": "未证实成功，不扣整券次数"
+        }
+      ]
+    },
+    {
+      "id": "TX-9008",
+      "consumeAt": "2026-11-08 12:20",
+      "consumeDate": "2026-11-08",
+      "accountId": "EMP-YD0882",
+      "accountName": "钱待离",
+      "canteenId": "CT-A",
+      "stallId": "ST-A2",
+      "terminalId": "T-A4",
+      "terminalName": "一食堂停用终端",
+      "mode": "现场写价",
+      "channel": "余额",
+      "requestCents": 2000,
+      "amountCents": 2000,
+      "result": "成功",
+      "reason": "当笔终端写价",
+      "menuSnapshotId": "",
+      "meal": "午餐",
+      "voucherId": "",
+      "ledgerId": "TX-LED-9008",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "attempts": [
+        {
+          "id": "RQ-9008-1",
+          "at": "2026-11-08 12:20",
+          "outcome": "成功",
+          "idem": "IDEM-9008"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-08 12:20",
+          "result": "成功",
+          "basis": "现场写价 20.00；后续冲正另列，不改本笔"
+        }
+      ]
+    },
+    {
+      "id": "TX-9009",
+      "consumeAt": "2026-11-10 11:05",
+      "consumeDate": "2026-11-10",
+      "accountId": "EMP-YD4100",
+      "accountName": "王班",
+      "canteenId": "CT-A",
+      "stallId": "",
+      "terminalId": "T-A3",
+      "terminalName": "一食堂前厅",
+      "mode": "固定餐标",
+      "channel": "余额",
+      "requestCents": 1000,
+      "amountCents": 1000,
+      "result": "成功",
+      "reason": "前厅固定餐标",
+      "menuSnapshotId": "",
+      "meal": "午餐",
+      "voucherId": "",
+      "ledgerId": "TX-LED-9009",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "attempts": [
+        {
+          "id": "RQ-9009-1",
+          "at": "2026-11-10 11:05",
+          "outcome": "成功",
+          "idem": "IDEM-9009"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-10 11:05",
+          "result": "成功",
+          "basis": "无档口；金额来自当笔餐标规则"
+        }
+      ]
+    },
+    {
+      "id": "TX-B-01",
+      "consumeAt": "2026-11-02 12:00",
+      "consumeDate": "2026-11-02",
+      "accountId": "EMP-YD3302",
+      "accountName": "王失败",
+      "canteenId": "CT-B",
+      "stallId": "ST-B1",
+      "terminalId": "T-B1",
+      "terminalName": "二食堂面档终端",
+      "mode": "菜品点选",
+      "channel": "余额",
+      "requestCents": 600,
+      "amountCents": 600,
+      "result": "成功",
+      "reason": "二食堂已发布快照",
+      "menuSnapshotId": "SNAP-B-20261102-V1",
+      "meal": "午餐",
+      "voucherId": "",
+      "ledgerId": "TX-LED-B01",
+      "verifiedOn": "",
+      "verifiedAt": "",
+      "attempts": [
+        {
+          "id": "RQ-B-01",
+          "at": "2026-11-02 12:00",
+          "outcome": "成功",
+          "idem": "IDEM-B-01"
+        }
+      ],
+      "history": [
+        {
+          "at": "2026-11-02 12:00",
+          "result": "成功",
+          "basis": "二食堂快照价 6.00；本笔不改写一食堂档案价"
+        }
+      ]
+    }
+  ],
+  "reversals": [
+    {
+      "id": "RV-9008",
+      "transactionId": "TX-9008",
+      "at": "2026-11-12 15:00",
+      "amountCents": 2000,
+      "status": "已登记",
+      "basis": "后续冲正记录。原成功消费保持成功，本页不计算净额"
+    }
+  ],
+  "operators": [
+    {
+      "id": "OP-ZHOU",
+      "name": "周衡",
+      "canteenIds": [
+        "CT-A",
+        "CT-B"
+      ]
+    },
+    {
+      "id": "OP-LIN",
+      "name": "林场",
+      "canteenIds": [
+        "CT-A"
+      ]
+    },
+    {
+      "id": "OP-QIAN",
+      "name": "钱宁",
+      "canteenIds": [
+        "CT-B"
+      ]
+    }
+  ]
+}

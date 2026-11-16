@@ -1,0 +1,80 @@
+{
+  "sourceCommit": "51ef9def34607fd52cc347e29c0c1020e9aaea1a",
+  "runtime": "deliveries/PC-HIFI-DIRECTION-20261106",
+  "base": "./",
+  "assetMapping": {
+    "assets/staff/YD1061-portrait-v1.png": "assets/staff/YD1061-portrait-v1.webp"
+  },
+  "files": [
+    {
+      "path": "assets/fixtures-CnQ3WToK.json",
+      "bytes": 21519,
+      "sha256": "1dd6a9718b5dd3040da009d58e32202ce94b34116ed058ed2b562437f4b75499"
+    },
+    {
+      "path": "assets/index-BHKbaRzJ.js",
+      "bytes": 318766,
+      "sha256": "747306d3bc7ced53fd996c51b9add37f27f9ee2d0a70e77f5ef7333a8786325e"
+    },
+    {
+      "path": "assets/industrial-lines-CoKbAmwT.svg",
+      "bytes": 584,
+      "sha256": "4246c838767eadbd8c39daa7af9f35f888759ebc3970e8638f3ec27973e6d14a"
+    },
+    {
+      "path": "assets/industrial-lines.svg",
+      "bytes": 584,
+      "sha256": "4246c838767eadbd8c39daa7af9f35f888759ebc3970e8638f3ec27973e6d14a"
+    },
+    {
+      "path": "assets/m01-fixtures-Dz-tUNzP.json",
+      "bytes": 10626,
+      "sha256": "06a404e75e8d7a81d504240b6ef67d202162979f58e719f49d158faaa05c3928"
+    },
+    {
+      "path": "assets/m04-fixtures-CRz0MEvK.json",
+      "bytes": 33420,
+      "sha256": "b25fd78664588bb78f85a2e4a6aa2cc45b3dc46b074b4db5f08ac34c7f512205"
+    },
+    {
+      "path": "assets/m06-fixtures-BTpemfqY.json",
+      "bytes": 3936,
+      "sha256": "5f65dc1f4bf8cd8fe4b27b14fc78dfba80f738e379af02aac98711b34a03b14e"
+    },
+    {
+      "path": "assets/m07-dish-default.png",
+      "bytes": 61539,
+      "sha256": "b925a1b0d4d86dfed2032bb21c08171fd76c629fd25b633a4118f7b506b82bcd"
+    },
+    {
+      "path": "assets/m07-fixtures-BSWvgSBK.json",
+      "bytes": 56311,
+      "sha256": "730c86c30818518071008e96b6663902e7051c33570a78713e720c8678a6c0af"
+    },
+    {
+      "path": "assets/security-fixtures-hYsz5fmE.json",
+      "bytes": 8017,
+      "sha256": "cfabec2bf14b08c9899d8d3ede83fc1d483cd96ff80b0c541fbfb437975915b9"
+    },
+    {
+      "path": "assets/staff/YD1061-portrait-v1.webp",
+      "bytes": 1364686,
+      "sha256": "cfcef00a9b17564acb46b7bd96253f58312de049db91e4f2cdeef2399e924906"
+    },
+    {
+      "path": "assets/style-DZAGRt55.css",
+      "bytes": 77792,
+      "sha256": "f0061c69d3433593cdb5d89da98951c0209b283bd75258e010e4a84c4934921c"
+    },
+    {
+      "path": "assets/yadon-logo-white.svg",
+      "bytes": 20728,
+      "sha256": "e315975abbfbbd068440f50887c4963f836e55af9fab55af40c3b99eacbee169"
+    },
+    {
+      "path": "index.html",
+      "bytes": 494,
+      "sha256": "40d92d05a915e0caed03993ee6e91da6af6973f6f2325646b418642fbda69b8d"
+    }
+  ]
+}
