@@ -110,7 +110,11 @@
       "kind": "货运",
       "applicant": "梁遥",
       "dept": "销售部",
-      "hosts": [{"name":"周明"}],
+      "hosts": [
+        {
+          "name": "周明"
+        }
+      ],
       "people": [
         {
           "name": "陆远",
@@ -144,7 +148,8 @@
       ],
       "allowedAccessPointIds": [
         "P01"
-      ]
+      ],
+      "campus": "华钢路"
     },
     {
       "id": "VIS-261108-03",
@@ -295,7 +300,8 @@
         "已确认",
         "已确认"
       ],
-      "allowedAccessPointIds": []
+      "allowedAccessPointIds": [],
+      "campus": "华钢路"
     },
     {
       "id": "VIS-261108-07",
@@ -348,7 +354,8 @@
       ],
       "allowedAccessPointIds": [
         "P01"
-      ]
+      ],
+      "campus": "华钢路"
     },
     {
       "id": "VIS-261108-08",
@@ -406,7 +413,12 @@
     "P01": "东门访客通道",
     "P02": "西门货运通道"
   },
-  "listMaintenance": {"departments": ["行政部", "销售部"]},
+  "listMaintenance": {
+    "departments": [
+      "行政部",
+      "销售部"
+    ]
+  },
   "lists": [
     {
       "id": "L-001",

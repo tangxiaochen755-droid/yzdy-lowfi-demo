@@ -57,6 +57,45 @@
           "leave",
           "exit"
         ]
+      },
+      {
+        "role": "SECONDARY_ATTENDANCE",
+        "actorId": "PC-GWQ",
+        "active": true,
+        "departments": [
+          "行政部"
+        ],
+        "teams": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "from": "2026-11-01",
+        "to": "2026-11-30",
+        "actions": [
+          "correction",
+          "leave",
+          "exit"
+        ]
+      }
+    ],
+    "secondaryGrants": [
+      {
+        "role": "SECONDARY_ATTENDANCE",
+        "actorId": "PC-GWQ",
+        "active": true,
+        "departments": [
+          "行政部"
+        ],
+        "actions": [
+          "report-export",
+          "overtime-allocate"
+        ],
+        "from": "2026-11-01",
+        "to": "2026-11-30",
+        "months": [
+          "2026-11"
+        ]
       }
     ]
   },
@@ -1196,6 +1235,19 @@
       "years": "—",
       "status": "在职",
       "history": []
+    },
+    {
+      "id": "Q-PC12-COMP",
+      "team": "G01",
+      "person": "YD1061",
+      "period": "2026-11",
+      "total": null,
+      "used": null,
+      "reserved": null,
+      "years": null,
+      "status": "在职",
+      "history": [],
+      "subject": "调休"
     }
   ],
   "batches": [
@@ -1639,6 +1691,25 @@
       "enabled": true,
       "version": "V1",
       "rule": "—"
+    }
+  ],
+  "monthlyConfirmations": [
+    {
+      "employeeId": "YD1061",
+      "month": "2026-10",
+      "source": "EMPLOYEE",
+      "status": "CONFIRMED",
+      "at": "2026-11-09T08:00:00+08:00"
+    },
+    {
+      "employeeId": "YD1064",
+      "month": "2026-10",
+      "source": null
+    },
+    {
+      "employeeId": "YD1101",
+      "month": "2026-10",
+      "source": null
     }
   ]
 }

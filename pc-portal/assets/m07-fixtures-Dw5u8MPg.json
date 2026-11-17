@@ -2146,5 +2146,51 @@
         "CT-B"
       ]
     }
+  ],
+  "southMeals": [
+    {
+      "id": "F09-PC12-L01",
+      "dept": "行政部",
+      "date": "2026-11-06",
+      "meal": "午餐",
+      "people": 1,
+      "status": "待审批",
+      "taskId": "TK261106005",
+      "period": null,
+      "delivery": "尚未配送"
+    },
+    {
+      "id": "F09-PC12-D01",
+      "dept": "行政部",
+      "date": "2026-11-06",
+      "meal": "晚餐",
+      "people": 1,
+      "status": "待审批",
+      "taskId": "TK-PC12-DINNER-01",
+      "period": null,
+      "delivery": "尚未配送"
+    },
+    {
+      "id": "F09-PC12-L01-HISTORY",
+      "dept": "行政部",
+      "date": "2026-11-05",
+      "meal": "午餐",
+      "people": 1,
+      "status": "已批准",
+      "taskId": "TK261106005-HISTORY",
+      "period": null,
+      "delivery": "已配送"
+    },
+    {
+      "id": "F09-PC12-D01-HISTORY",
+      "dept": "行政部",
+      "date": "2026-11-05",
+      "meal": "晚餐",
+      "people": 1,
+      "status": "已批准",
+      "taskId": "TK-PC12-DINNER-01-HISTORY",
+      "period": null,
+      "delivery": "已配送"
+    }
   ]
 }

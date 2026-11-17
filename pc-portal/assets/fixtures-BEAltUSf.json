@@ -14,8 +14,12 @@
       "job": "人事专员",
       "date": "2025-03-01",
       "status": "在职",
-      "profile": {"personnelNature": "正式员工"},
-      "personnelTags": ["老年人"],
+      "profile": {
+        "personnelNature": "正式员工"
+      },
+      "personnelTags": [
+        "老年人"
+      ],
       "cadre": {
         "value": "普通员工",
         "at": "2025-03-01 09:20",
@@ -395,8 +399,22 @@
         [
           "申请事由",
           "园区工作用餐"
+        ],
+        [
+          "餐次",
+          "午餐"
+        ],
+        [
+          "申请编号",
+          "F09-PC12-L01"
+        ],
+        [
+          "用餐时段",
+          "未记录"
         ]
-      ]
+      ],
+      "meal": "午餐",
+      "businessId": "F09-PC12-L01"
     },
     {
       "id": "TK261106006",
@@ -577,17 +595,371 @@
         ]
       ]
     },
-    {"id": "TK-M01-01", "type": "普通访客预约", "applicant": "赵安", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "李静", "assigneeId": "PC-LJ", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-03"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "history": [{"node": "被访人审批", "actor": "周澄", "at": "2026-11-07 15:30", "result": "同意", "opinion": "已核对来访安排"}], "peerDecision": "同意"},
-    {"id": "TK-M01-02", "type": "普通访客预约", "applicant": "周栩", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "李静", "assigneeId": "PC-LJ", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-11"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "peerDecision": "待处理"},
-    {"id": "TK-M01-03", "type": "普通访客预约", "applicant": "陶榆", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "李静", "assigneeId": "PC-LJ", "status": "已处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-05"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "peerDecision": "待处理", "result": "驳回", "handledAt": "2026-11-07 16:10", "opinion": "来访安排需重新确认"},
-    {"id": "TK-M01-04", "type": "普通访客预约", "applicant": "何瑾", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "李静", "assigneeId": "PC-LJ", "status": "已处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-08"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "peerDecision": "同意", "result": "同意", "handledAt": "2026-11-07 16:21"},
-    {"id": "TK-M01-05", "type": "普通访客预约", "applicant": "徐沅", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "李静", "assigneeId": "PC-LJ", "status": "已撤权", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-12"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "canHandle": false},
-    {"id": "TK-M01-06", "type": "普通访客预约", "applicant": "魏澄", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "李静", "assigneeId": "PC-LJ", "status": "UNKNOWN", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-13"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]], "resultState": "UNKNOWN"},
-    {"id": "TK-M01-07", "type": "货运预约", "applicant": "林晗", "approvalDepartment": "销售部", "node": "审批记录待核对", "assignee": "李静", "assigneeId": "PC-LJ", "status": "只读", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-06"], ["货运目的", "发货"], ["业务状态", "结果待确认"]], "reference": true},
-    {"id": "TK-M01-08", "type": "普通访客预约", "applicant": "许明", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "周澄", "assigneeId": "PC-ZC", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-261108-14"], ["计划时段", "2026-11-08 08:30–17:00"], ["预约人数", "1 人"]]},
-    {"id": "TK-M02-09", "type": "普通访客预约", "applicant": "何言", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "周澄", "assigneeId": "PC-ZC", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-M02-09"], ["计划时段", "2026-11-09 14:00–16:00"], ["预约人数", "1 人"]], "outcome": "success", "version": 1},
-    {"id": "TK-M02-10", "type": "普通访客预约", "applicant": "周雨", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "周澄", "assigneeId": "PC-ZC", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-M02-10"], ["计划时段", "2026-11-09 14:00–16:00"], ["预约人数", "1 人"]], "outcome": "failure", "version": 1},
-    {"id": "TK-M02-11", "type": "普通访客预约", "applicant": "赵新", "approvalDepartment": "行政部", "node": "被访人审批", "assignee": "周澄", "assigneeId": "PC-ZC", "status": "待处理", "arrivedAt": "2026-11-07 15:20", "submittedAt": "2026-11-07 15:20", "m01": true, "details": [["预约单号", "VIS-M02-11"], ["计划时段", "2026-11-09 14:00–16:00"], ["预约人数", "1 人"]], "outcome": "unknown", "version": 1}
+    {
+      "id": "TK-M01-01",
+      "type": "普通访客预约",
+      "applicant": "赵安",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "李静",
+      "assigneeId": "PC-LJ",
+      "status": "待处理",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-261108-03"
+        ],
+        [
+          "计划时段",
+          "2026-11-08 08:30–17:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ],
+      "history": [
+        {
+          "node": "被访人审批",
+          "actor": "周澄",
+          "at": "2026-11-07 15:30",
+          "result": "同意",
+          "opinion": "已核对来访安排"
+        }
+      ],
+      "peerDecision": "同意"
+    },
+    {
+      "id": "TK-M01-02",
+      "type": "普通访客预约",
+      "applicant": "周栩",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "李静",
+      "assigneeId": "PC-LJ",
+      "status": "待处理",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-261108-11"
+        ],
+        [
+          "计划时段",
+          "2026-11-08 08:30–17:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ],
+      "peerDecision": "待处理"
+    },
+    {
+      "id": "TK-M01-03",
+      "type": "普通访客预约",
+      "applicant": "陶榆",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "李静",
+      "assigneeId": "PC-LJ",
+      "status": "已处理",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-261108-05"
+        ],
+        [
+          "计划时段",
+          "2026-11-08 08:30–17:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ],
+      "peerDecision": "待处理",
+      "result": "驳回",
+      "handledAt": "2026-11-07 16:10",
+      "opinion": "来访安排需重新确认"
+    },
+    {
+      "id": "TK-M01-04",
+      "type": "普通访客预约",
+      "applicant": "何瑾",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "李静",
+      "assigneeId": "PC-LJ",
+      "status": "已处理",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-261108-08"
+        ],
+        [
+          "计划时段",
+          "2026-11-08 08:30–17:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ],
+      "peerDecision": "同意",
+      "result": "同意",
+      "handledAt": "2026-11-07 16:21"
+    },
+    {
+      "id": "TK-M01-05",
+      "type": "普通访客预约",
+      "applicant": "徐沅",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "李静",
+      "assigneeId": "PC-LJ",
+      "status": "已撤权",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-261108-12"
+        ],
+        [
+          "计划时段",
+          "2026-11-08 08:30–17:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ],
+      "canHandle": false
+    },
+    {
+      "id": "TK-M01-06",
+      "type": "普通访客预约",
+      "applicant": "魏澄",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "李静",
+      "assigneeId": "PC-LJ",
+      "status": "UNKNOWN",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-261108-13"
+        ],
+        [
+          "计划时段",
+          "2026-11-08 08:30–17:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ],
+      "resultState": "UNKNOWN"
+    },
+    {
+      "id": "TK-M01-07",
+      "type": "货运预约",
+      "applicant": "林晗",
+      "approvalDepartment": "销售部",
+      "node": "审批记录待核对",
+      "assignee": "李静",
+      "assigneeId": "PC-LJ",
+      "status": "只读",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-261108-06"
+        ],
+        [
+          "货运目的",
+          "发货"
+        ],
+        [
+          "业务状态",
+          "结果待确认"
+        ]
+      ],
+      "reference": true
+    },
+    {
+      "id": "TK-M01-08",
+      "type": "普通访客预约",
+      "applicant": "许明",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "周澄",
+      "assigneeId": "PC-ZC",
+      "status": "待处理",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-261108-14"
+        ],
+        [
+          "计划时段",
+          "2026-11-08 08:30–17:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ]
+    },
+    {
+      "id": "TK-M02-09",
+      "type": "普通访客预约",
+      "applicant": "何言",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "周澄",
+      "assigneeId": "PC-ZC",
+      "status": "待处理",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-M02-09"
+        ],
+        [
+          "计划时段",
+          "2026-11-09 14:00–16:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ],
+      "outcome": "success",
+      "version": 1
+    },
+    {
+      "id": "TK-M02-10",
+      "type": "普通访客预约",
+      "applicant": "周雨",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "周澄",
+      "assigneeId": "PC-ZC",
+      "status": "待处理",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-M02-10"
+        ],
+        [
+          "计划时段",
+          "2026-11-09 14:00–16:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ],
+      "outcome": "failure",
+      "version": 1
+    },
+    {
+      "id": "TK-M02-11",
+      "type": "普通访客预约",
+      "applicant": "赵新",
+      "approvalDepartment": "行政部",
+      "node": "被访人审批",
+      "assignee": "周澄",
+      "assigneeId": "PC-ZC",
+      "status": "待处理",
+      "arrivedAt": "2026-11-07 15:20",
+      "submittedAt": "2026-11-07 15:20",
+      "m01": true,
+      "details": [
+        [
+          "预约单号",
+          "VIS-M02-11"
+        ],
+        [
+          "计划时段",
+          "2026-11-09 14:00–16:00"
+        ],
+        [
+          "预约人数",
+          "1 人"
+        ]
+      ],
+      "outcome": "unknown",
+      "version": 1
+    },
+    {
+      "id": "TK-PC12-DINNER-01",
+      "type": "南园用餐申请",
+      "applicant": "陈思远",
+      "dept": "行政部",
+      "node": "部门负责人审批",
+      "arrivedAt": "2026-11-06 08:32",
+      "status": "待处理",
+      "assignee": "李静",
+      "assigneeId": "PC-LJ",
+      "originalNode": "部门负责人审批",
+      "originalAssignee": "李静",
+      "details": [
+        [
+          "用餐日期",
+          "2026-11-06"
+        ],
+        [
+          "用餐地点",
+          "南园"
+        ],
+        [
+          "申请事由",
+          "园区工作用餐"
+        ],
+        [
+          "餐次",
+          "晚餐"
+        ],
+        [
+          "申请编号",
+          "F09-PC12-D01"
+        ],
+        [
+          "用餐时段",
+          "未记录"
+        ]
+      ],
+      "meal": "晚餐",
+      "businessId": "F09-PC12-D01"
+    }
   ],
   "permissions": {
     "actor": {

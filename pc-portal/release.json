@@ -1,5 +1,5 @@
 {
-  "sourceCommit": "51ef9def34607fd52cc347e29c0c1020e9aaea1a",
+  "sourceCommit": "0336ce2f5d2e21b1d8b4acb8ea8d0c06050374e2",
   "runtime": "deliveries/PC-HIFI-DIRECTION-20261106",
   "base": "./",
   "assetMapping": {
@@ -7,14 +7,14 @@
   },
   "files": [
     {
-      "path": "assets/fixtures-CnQ3WToK.json",
-      "bytes": 21519,
-      "sha256": "1dd6a9718b5dd3040da009d58e32202ce94b34116ed058ed2b562437f4b75499"
+      "path": "assets/fixtures-BEAltUSf.json",
+      "bytes": 25091,
+      "sha256": "53b94798bd1a861cd3de9a43f7665fa6bc8d8a39a888f27768f9ed4ab7aa2e07"
     },
     {
-      "path": "assets/index-BHKbaRzJ.js",
-      "bytes": 318766,
-      "sha256": "747306d3bc7ced53fd996c51b9add37f27f9ee2d0a70e77f5ef7333a8786325e"
+      "path": "assets/index-vDfcpyTD.js",
+      "bytes": 325529,
+      "sha256": "d1963c0efa9a26fa129c89c8b454089f5ddfb189fb7e00972d272b2f35dda1aa"
     },
     {
       "path": "assets/industrial-lines-CoKbAmwT.svg",
@@ -27,14 +27,14 @@
       "sha256": "4246c838767eadbd8c39daa7af9f35f888759ebc3970e8638f3ec27973e6d14a"
     },
     {
-      "path": "assets/m01-fixtures-Dz-tUNzP.json",
-      "bytes": 10626,
-      "sha256": "06a404e75e8d7a81d504240b6ef67d202162979f58e719f49d158faaa05c3928"
+      "path": "assets/m01-fixtures-BiB9UjMt.json",
+      "bytes": 10776,
+      "sha256": "70858ea6f3f6b367085aa8d3057ed6b848e0ad15ee2ac12e4ac37781583b3398"
     },
     {
-      "path": "assets/m04-fixtures-CRz0MEvK.json",
-      "bytes": 33420,
-      "sha256": "b25fd78664588bb78f85a2e4a6aa2cc45b3dc46b074b4db5f08ac34c7f512205"
+      "path": "assets/m04-fixtures-DAEA-dhz.json",
+      "bytes": 34864,
+      "sha256": "0733d47f84347e8cdf620462d29c0667dd1135f260e914b3e886e409041e80b9"
     },
     {
       "path": "assets/m06-fixtures-BTpemfqY.json",
@@ -47,9 +47,9 @@
       "sha256": "b925a1b0d4d86dfed2032bb21c08171fd76c629fd25b633a4118f7b506b82bcd"
     },
     {
-      "path": "assets/m07-fixtures-BSWvgSBK.json",
-      "bytes": 56311,
-      "sha256": "730c86c30818518071008e96b6663902e7051c33570a78713e720c8678a6c0af"
+      "path": "assets/m07-fixtures-Dw5u8MPg.json",
+      "bytes": 57387,
+      "sha256": "b92c7a1139a25601524d4446564f2bc415814b5dd585a80497b34d2db3b7e5c1"
     },
     {
       "path": "assets/security-fixtures-hYsz5fmE.json",
@@ -62,9 +62,9 @@
       "sha256": "cfcef00a9b17564acb46b7bd96253f58312de049db91e4f2cdeef2399e924906"
     },
     {
-      "path": "assets/style-DZAGRt55.css",
-      "bytes": 77792,
-      "sha256": "f0061c69d3433593cdb5d89da98951c0209b283bd75258e010e4a84c4934921c"
+      "path": "assets/style-B1A-FBG3.css",
+      "bytes": 77888,
+      "sha256": "a9c3cca0177edc674e29095d3755792ef16ab1ee31c85190d60c4fcb8e5129aa"
     },
     {
       "path": "assets/yadon-logo-white.svg",
@@ -74,7 +74,7 @@
     {
       "path": "index.html",
       "bytes": 494,
-      "sha256": "40d92d05a915e0caed03993ee6e91da6af6973f6f2325646b418642fbda69b8d"
+      "sha256": "d9fea9504bfbb41fca7410e80d08e8d0ba039b3f2daae112dbd738aedb8d4cc3"
     }
   ]
 }
