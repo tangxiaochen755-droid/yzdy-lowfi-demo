@@ -1,5 +1,5 @@
 {
-  "sourceCommit": "0336ce2f5d2e21b1d8b4acb8ea8d0c06050374e2",
+  "sourceCommit": "a942c3d8a6c054d958f4d90e28648778035e1f16",
   "runtime": "deliveries/PC-HIFI-DIRECTION-20261106",
   "base": "./",
   "assetMapping": {
@@ -12,9 +12,9 @@
       "sha256": "53b94798bd1a861cd3de9a43f7665fa6bc8d8a39a888f27768f9ed4ab7aa2e07"
     },
     {
-      "path": "assets/index-vDfcpyTD.js",
-      "bytes": 325529,
-      "sha256": "d1963c0efa9a26fa129c89c8b454089f5ddfb189fb7e00972d272b2f35dda1aa"
+      "path": "assets/index-Bc7m3f5G.js",
+      "bytes": 325354,
+      "sha256": "36063e8379b7d01c5ed7663c46f13144716dfecbc2a1f4a843c4e176bfba9468"
     },
     {
       "path": "assets/industrial-lines-CoKbAmwT.svg",
@@ -32,9 +32,9 @@
       "sha256": "70858ea6f3f6b367085aa8d3057ed6b848e0ad15ee2ac12e4ac37781583b3398"
     },
     {
-      "path": "assets/m04-fixtures-DAEA-dhz.json",
-      "bytes": 34864,
-      "sha256": "0733d47f84347e8cdf620462d29c0667dd1135f260e914b3e886e409041e80b9"
+      "path": "assets/m04-fixtures-K2ntFT6x.json",
+      "bytes": 34855,
+      "sha256": "c421ecd507aedf3974798b6bc5d44352abd449f6337e429a79d0f2437f809684"
     },
     {
       "path": "assets/m06-fixtures-BTpemfqY.json",
@@ -74,7 +74,7 @@
     {
       "path": "index.html",
       "bytes": 494,
-      "sha256": "d9fea9504bfbb41fca7410e80d08e8d0ba039b3f2daae112dbd738aedb8d4cc3"
+      "sha256": "3b0238378cf8f5cc04efba508bdf9722071c1c47a86e8f4f52c34c6f6a3aca59"
     }
   ]
 }
